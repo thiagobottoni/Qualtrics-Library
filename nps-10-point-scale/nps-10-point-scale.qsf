@@ -1,0 +1,327 @@
+{
+   "SurveyEntry":{
+      "SurveyID":"SV_8GnyBtDiGnIcTCC",
+      "SurveyName":"NPS on a 10 Point Scale",
+      "SurveyDescription":null,
+      "SurveyOwnerID":"UR_cuppQqWTlam3hZQ",
+      "SurveyBrandID":"qdemo",
+      "DivisionID":"DV_51IeqeCbv2poD6l",
+      "SurveyLanguage":"PT-BR",
+      "SurveyActiveResponseSet":"RS_aYjr04Qa6r2ppGK",
+      "SurveyStatus":"Active",
+      "SurveyStartDate":"0000-00-00 00:00:00",
+      "SurveyExpirationDate":"0000-00-00 00:00:00",
+      "SurveyCreationDate":"2022-10-21 21:01:54",
+      "CreatorID":"UR_cuppQqWTlam3hZQ",
+      "LastModified":"2022-10-21 21:36:57",
+      "LastAccessed":"0000-00-00 00:00:00",
+      "LastActivated":"2022-10-21 21:06:51",
+      "Deleted":null
+   },
+   "SurveyElements":[
+      {
+         "SurveyID":"SV_8GnyBtDiGnIcTCC",
+         "Element":"BL",
+         "PrimaryAttribute":"Survey Blocks",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":[
+            {
+               "Type":"Default",
+               "Description":"Default Question Block",
+               "ID":"BL_38zeuljd390HdOe",
+               "BlockElements":[
+                  {
+                     "Type":"Question",
+                     "QuestionID":"QID2"
+                  }
+               ]
+            },
+            {
+               "Type":"Trash",
+               "Description":"Trash \/ Unused Questions",
+               "ID":"BL_3ELnjJpWzs4mQey",
+               "BlockElements":[
+                  
+               ]
+            }
+         ]
+      },
+      {
+         "SurveyID":"SV_8GnyBtDiGnIcTCC",
+         "Element":"FL",
+         "PrimaryAttribute":"Survey Flow",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":{
+            "Type":"Root",
+            "FlowID":"FL_1",
+            "Flow":[
+               {
+                  "Type":"Block",
+                  "ID":"BL_38zeuljd390HdOe",
+                  "FlowID":"FL_2",
+                  "Autofill":[
+                     
+                  ]
+               }
+            ],
+            "Properties":{
+               "Count":5,
+               "RemovedFieldsets":[
+                  
+               ]
+            }
+         }
+      },
+      {
+         "SurveyID":"SV_8GnyBtDiGnIcTCC",
+         "Element":"PL",
+         "PrimaryAttribute":"Preview Link",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":{
+            "PreviewType":"Brand",
+            "PreviewID":"dad65f3b-d68e-4df4-abda-6c1a7f63ff1b"
+         }
+      },
+      {
+         "SurveyID":"SV_8GnyBtDiGnIcTCC",
+         "Element":"SO",
+         "PrimaryAttribute":"Survey Options",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":{
+            "BackButton":"false",
+            "SaveAndContinue":"false",
+            "SurveyProtection":"PublicSurvey",
+            "BallotBoxStuffingPrevention":"false",
+            "NoIndex":"Yes",
+            "SecureResponseFiles":"true",
+            "SurveyExpiration":"None",
+            "SurveyTermination":"DefaultMessage",
+            "Header":"",
+            "Footer":"",
+            "ProgressBarDisplay":"None",
+            "PartialData":"No",
+            "ValidationMessage":null,
+            "PreviousButton":" \u2190 ",
+            "NextButton":" \u2192 ",
+            "SurveyTitle":"Qualtrics Survey | Qualtrics Experience Management",
+            "SkinLibrary":"qdemo",
+            "SkinType":"templated",
+            "Skin":{
+               "brandingId":"6390112371",
+               "templateId":"*2014",
+               "overrides":null
+            },
+            "NewScoring":1,
+            "CustomStyles":[
+               
+            ],
+            "EOSMessage":"MS_8vMa1H7U4XMbMJU",
+            "ShowExportTags":"false",
+            "CollectGeoLocation":"false",
+            "SurveyMetaDescription":"Survey Software, Enterprise Survey software for enterprise feedback management and CRM solutions. Enables high-quality data collection, panel management and results analysis. Perfect for market research or CRM solution (Customer Relationship Management) integration. Free trial and consultation.",
+            "PasswordProtection":"No",
+            "AnonymizeResponse":"Yes",
+            "RefererCheck":"No",
+            "BallotBoxStuffingPreventionBehavior":null,
+            "BallotBoxStuffingPreventionMessage":null,
+            "BallotBoxStuffingPreventionMessageLibrary":null,
+            "BallotBoxStuffingPreventionURL":null,
+            "RecaptchaV3":"false",
+            "ConfirmStart":false,
+            "AutoConfirmStart":false,
+            "RelevantID":"false",
+            "RelevantIDLockoutPeriod":"+30 days",
+            "UseCustomSurveyLinkCompletedMessage":null,
+            "SurveyLinkCompletedMessage":null,
+            "SurveyLinkCompletedMessageLibrary":null,
+            "ResponseSummary":"No",
+            "EOSMessageLibrary":"UR_cuppQqWTlam3hZQ",
+            "EOSRedirectURL":null,
+            "EmailThankYou":"false",
+            "ThankYouEmailMessageLibrary":null,
+            "ThankYouEmailMessage":null,
+            "ValidateMessage":"false",
+            "ValidationMessageLibrary":null,
+            "InactiveSurvey":"DefaultMessage",
+            "PartialDeletion":"+1 hour",
+            "PartialDataCloseAfter":"SurveyStart",
+            "InactiveMessageLibrary":null,
+            "InactiveMessage":null,
+            "AvailableLanguages":{
+               "PT-BR":[
+                  
+               ],
+               "EN":[
+                  
+               ]
+            },
+            "ProtectSelectionIds":true,
+            "SurveyCreationDate":"2022-10-21 21:01:54",
+            "MetaDataTranslations":{
+               "EN":{
+                  "SurveyTitle":"Qualtrics Survey | Qualtrics Experience Management\u00a0",
+                  "SurveyMetaDescription":"Survey Software, Enterprise Survey software for enterprise feedback management and CRM solutions. Enables high-quality data collection, panel management and results analysis. Perfect for market research or CRM solution (Customer Relationship Management) integration. Free trial and consultation."
+               }
+            },
+            "CustomLanguages":[
+               
+            ]
+         }
+      },
+      {
+         "SurveyID":"SV_8GnyBtDiGnIcTCC",
+         "Element":"SCO",
+         "PrimaryAttribute":"Scoring",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":{
+            "ScoringCategories":[
+               
+            ],
+            "ScoringCategoryGroups":[
+               
+            ],
+            "ScoringSummaryCategory":null,
+            "ScoringSummaryAfterQuestions":0,
+            "ScoringSummaryAfterSurvey":0,
+            "DefaultScoringCategory":null,
+            "AutoScoringCategory":null
+         }
+      },
+      {
+         "SurveyID":"SV_8GnyBtDiGnIcTCC",
+         "Element":"PROJ",
+         "PrimaryAttribute":"CORE",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":"1.1.0",
+         "Payload":{
+            "ProjectCategory":"CORE",
+            "SchemaVersion":"1.1.0"
+         }
+      },
+      {
+         "SurveyID":"SV_8GnyBtDiGnIcTCC",
+         "Element":"STAT",
+         "PrimaryAttribute":"Survey Statistics",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":{
+            "MobileCompatible":true,
+            "ID":"Survey Statistics"
+         }
+      },
+      {
+         "SurveyID":"SV_8GnyBtDiGnIcTCC",
+         "Element":"QC",
+         "PrimaryAttribute":"Survey Question Count",
+         "SecondaryAttribute":"5",
+         "TertiaryAttribute":null,
+         "Payload":null
+      },
+      {
+         "SurveyID":"SV_8GnyBtDiGnIcTCC",
+         "Element":"RS",
+         "PrimaryAttribute":"RS_aYjr04Qa6r2ppGK",
+         "SecondaryAttribute":"Default Response Set",
+         "TertiaryAttribute":null,
+         "Payload":null
+      },
+      {
+         "SurveyID":"SV_8GnyBtDiGnIcTCC",
+         "Element":"SQ",
+         "PrimaryAttribute":"QID2",
+         "SecondaryAttribute":"Em uma escala de 1 a 10, o quanto voc\u00ea indicaria a nossa empresa para um amigo ou colega?",
+         "TertiaryAttribute":null,
+         "Payload":{
+            "QuestionText":"Em uma escala de 1 a 10, o quanto voc\u00ea indicaria a nossa empresa para um amigo ou colega?",
+            "DefaultChoices":false,
+            "DataExportTag":"Q1",
+            "QuestionType":"MC",
+            "Selector":"NPS",
+            "Configuration":{
+               "QuestionDescriptionOption":"UseText"
+            },
+            "QuestionDescription":"Em uma escala de 1 a 10, o quanto voc\u00ea indicaria a nossa empresa para um amigo ou colega?",
+            "Choices":[
+               {
+                  "Display":"0"
+               },
+               {
+                  "Display":"1"
+               },
+               {
+                  "Display":"2"
+               },
+               {
+                  "Display":"3"
+               },
+               {
+                  "Display":"4"
+               },
+               {
+                  "Display":"5"
+               },
+               {
+                  "Display":"6"
+               },
+               {
+                  "Display":"7"
+               },
+               {
+                  "Display":"8"
+               },
+               {
+                  "Display":"9"
+               },
+               {
+                  "Display":"10"
+               }
+            ],
+            "ChoiceOrder":[
+               "0",
+               "1",
+               "2",
+               "3",
+               "4",
+               "5",
+               "6",
+               "7",
+               "8",
+               "9",
+               "10"
+            ],
+            "Validation":{
+               "Settings":{
+                  "ForceResponse":"OFF",
+                  "ForceResponseType":"ON",
+                  "Type":"None"
+               }
+            },
+            "GradingData":[
+               
+            ],
+            "Language":{
+               "EN":{
+                  "QuestionText":"On a scale of 1 to 10, how likely are you to recommend our company to a friend or colleague?"
+               }
+            },
+            "NextChoiceId":11,
+            "NextAnswerId":1,
+            "ColumnLabels":[
+               
+            ],
+            "QuestionID":"QID2",
+            "QuestionJS":"Qualtrics.SurveyEngine.addOnload(function()\n{\n  \/\/ Change the NPS question scale below (Pt-Br: Altere a escala da pergunta NPS abaixo)\n  \/\/ Choose 0 or more, no greater than npsEnd (Pt-Br: Escolha 0 ou mais, mas n\u00e3o maior que o npsEnd)\n  var npsStart = 1; \n  \/\/ Choose 10 or less, no less than npsStart (Pt-Br: Escolha 10 ou menos, mas n\u00e3o menos que o npsStart)\n  var npsEnd = 10;  \n\n  \/\/ Do not change anything below this line (Pt-Br: N\u00e3o altere nada abaixo dessa linha)\n  var width = 100 \/ (npsEnd - npsStart + 1) + \"%\";\n  var question = jQuery(\"#\" + this.questionId);\n  var label = question.find('td.LabelContainer');\n  var control = question.find('td.ControlContainer');\n\n  label.each(function(index) {\n    if (index < npsStart || index > npsEnd) {\n      this.hide();\n      control[index].hide();\n    }\n    else {\n      this.setAttribute('width', width);\n      control[index].style.width = width;\n    }\n  });\n\/\/ Source: https:\/\/gist.github.com\/marketinview\/c941fc59b7ddaef8ba3b\n});\n\n\nQualtrics.SurveyEngine.addOnReady(function()\n{\n\t\/*Place your JavaScript here to run when the page is fully displayed*\/\n\n});\n\nQualtrics.SurveyEngine.addOnUnload(function()\n{\n\t\/*Place your JavaScript here to run when the page is unloaded*\/\n\n});",
+            "QuestionText_Unsafe":"Em uma escala de 1 a 10, o quanto voc\u00ea indicaria a nossa empresa para um amigo ou colega?",
+            "DataVisibility":{
+               "Private":false,
+               "Hidden":false
+            }
+         }
+      }
+   ]
+}
