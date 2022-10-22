@@ -2,7 +2,7 @@
 This repository contains custom survey templates that addresses common business needs.
 
 ## Summary
-- brz-address-search-tool: implements an address search tool by postal code for Brazilian residents using public API
+- **address-search-tool:** It implements an address search tool by Brazil Postal Codes using public API
 
 ## How to implement
 1. Navigate to the folder that contains the template you want;
