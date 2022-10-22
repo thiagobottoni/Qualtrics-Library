@@ -1,0 +1,445 @@
+{
+   "SurveyEntry":{
+      "SurveyID":"SV_74l01cwnaGJouJ8",
+      "SurveyName":"BRZ Address Search Tool",
+      "SurveyDescription":null,
+      "SurveyOwnerID":"UR_cuppQqWTlam3hZQ",
+      "SurveyBrandID":"qdemo",
+      "DivisionID":"DV_51IeqeCbv2poD6l",
+      "SurveyLanguage":"PT-BR",
+      "SurveyActiveResponseSet":"RS_1zbn5YwLGbZTGV8",
+      "SurveyStatus":"Active",
+      "SurveyStartDate":"0000-00-00 00:00:00",
+      "SurveyExpirationDate":"0000-00-00 00:00:00",
+      "SurveyCreationDate":"2022-10-21 20:11:43",
+      "CreatorID":"UR_cuppQqWTlam3hZQ",
+      "LastModified":"2022-10-21 20:19:29",
+      "LastAccessed":"0000-00-00 00:00:00",
+      "LastActivated":"2022-10-21 20:16:17",
+      "Deleted":null
+   },
+   "SurveyElements":[
+      {
+         "SurveyID":"SV_74l01cwnaGJouJ8",
+         "Element":"BL",
+         "PrimaryAttribute":"Survey Blocks",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":[
+            {
+               "Type":"Default",
+               "Description":"Solicita CEP",
+               "ID":"BL_57iyIA47Fr01pCS",
+               "BlockElements":[
+                  {
+                     "Type":"Question",
+                     "QuestionID":"QID1"
+                  }
+               ]
+            },
+            {
+               "Type":"Trash",
+               "Description":"Trash \/ Unused Questions",
+               "ID":"BL_3TQHTvF0z4roX4i"
+            },
+            {
+               "Type":"Standard",
+               "SubType":"",
+               "Description":"Exibe Endere\u00e7o",
+               "ID":"BL_ePa20ooLshbKwgC",
+               "BlockElements":[
+                  {
+                     "Type":"Question",
+                     "QuestionID":"QID2"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "SurveyID":"SV_74l01cwnaGJouJ8",
+         "Element":"FL",
+         "PrimaryAttribute":"Survey Flow",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":{
+            "Type":"Root",
+            "FlowID":"FL_1",
+            "Flow":[
+               {
+                  "Type":"Block",
+                  "ID":"BL_57iyIA47Fr01pCS",
+                  "FlowID":"FL_2",
+                  "Autofill":[
+                     
+                  ]
+               },
+               {
+                  "Type":"WebService",
+                  "FlowID":"FL_4",
+                  "URL":"https:\/\/brasilapi.com.br\/api\/cep\/v1\/${q:\/\/QID1\/ChoiceTextEntryValue}",
+                  "Method":"GET",
+                  "RequestParams":[
+                     
+                  ],
+                  "EditBodyParams":[
+                     
+                  ],
+                  "Body":[
+                     
+                  ],
+                  "ContentType":"application\/x-www-form-urlencoded",
+                  "Headers":[
+                     
+                  ],
+                  "ResponseMap":[
+                     {
+                        "key":"street",
+                        "value":"street"
+                     },
+                     {
+                        "key":"neighborhood",
+                        "value":"neighborhood"
+                     },
+                     {
+                        "key":"city",
+                        "value":"city"
+                     },
+                     {
+                        "key":"state",
+                        "value":"state"
+                     }
+                  ],
+                  "FireAndForget":false,
+                  "StringifyValues":true
+               },
+               {
+                  "Type":"Standard",
+                  "ID":"BL_ePa20ooLshbKwgC",
+                  "FlowID":"FL_3",
+                  "Autofill":[
+                     
+                  ]
+               }
+            ],
+            "Properties":{
+               "Count":5,
+               "RemovedFieldsets":[
+                  
+               ]
+            }
+         }
+      },
+      {
+         "SurveyID":"SV_74l01cwnaGJouJ8",
+         "Element":"PL",
+         "PrimaryAttribute":"Preview Link",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":{
+            "PreviewType":"Brand",
+            "PreviewID":"c5f0514b-ae01-4f40-a290-dce59c34aec8"
+         }
+      },
+      {
+         "SurveyID":"SV_74l01cwnaGJouJ8",
+         "Element":"SO",
+         "PrimaryAttribute":"Survey Options",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":{
+            "BackButton":"false",
+            "SaveAndContinue":"false",
+            "SurveyProtection":"PublicSurvey",
+            "BallotBoxStuffingPrevention":"false",
+            "NoIndex":"Yes",
+            "SecureResponseFiles":"true",
+            "SurveyExpiration":"None",
+            "SurveyTermination":"DefaultMessage",
+            "Header":"",
+            "Footer":"",
+            "ProgressBarDisplay":"None",
+            "PartialData":"No",
+            "ValidationMessage":null,
+            "PreviousButton":" \u2190 ",
+            "NextButton":" \u2192 ",
+            "SurveyTitle":"Qualtrics Survey | Qualtrics Experience Management",
+            "SkinLibrary":"qdemo",
+            "SkinType":"templated",
+            "Skin":{
+               "brandingId":"6390112371",
+               "templateId":"*2014",
+               "overrides":null
+            },
+            "NewScoring":1,
+            "CustomStyles":[
+               
+            ],
+            "EOSMessage":null,
+            "ShowExportTags":"false",
+            "CollectGeoLocation":"false",
+            "SurveyMetaDescription":"Survey Software, Enterprise Survey software for enterprise feedback management and CRM solutions. Enables high-quality data collection, panel management and results analysis. Perfect for market research or CRM solution (Customer Relationship Management) integration. Free trial and consultation.",
+            "PasswordProtection":"No",
+            "AnonymizeResponse":"Yes",
+            "RefererCheck":"No",
+            "BallotBoxStuffingPreventionBehavior":null,
+            "BallotBoxStuffingPreventionMessage":null,
+            "BallotBoxStuffingPreventionMessageLibrary":null,
+            "BallotBoxStuffingPreventionURL":null,
+            "RecaptchaV3":"false",
+            "ConfirmStart":false,
+            "AutoConfirmStart":false,
+            "RelevantID":"false",
+            "RelevantIDLockoutPeriod":"+30 days",
+            "UseCustomSurveyLinkCompletedMessage":null,
+            "SurveyLinkCompletedMessage":null,
+            "SurveyLinkCompletedMessageLibrary":null,
+            "ResponseSummary":"No",
+            "EOSMessageLibrary":null,
+            "EOSRedirectURL":null,
+            "EmailThankYou":"false",
+            "ThankYouEmailMessageLibrary":null,
+            "ThankYouEmailMessage":null,
+            "ValidateMessage":"false",
+            "ValidationMessageLibrary":null,
+            "InactiveSurvey":"DefaultMessage",
+            "PartialDeletion":"+1 hour",
+            "PartialDataCloseAfter":"SurveyStart",
+            "InactiveMessageLibrary":null,
+            "InactiveMessage":null,
+            "AvailableLanguages":{
+               "PT-BR":[
+                  
+               ],
+               "EN":[
+                  
+               ]
+            },
+            "CustomLanguages":[
+               
+            ],
+            "SurveyCreationDate":"2022-10-21 20:11:43",
+            "MetaDataTranslations":{
+               "EN":{
+                  "SurveyTitle":"Qualtrics Survey | Qualtrics Experience Management",
+                  "SurveyMetaDescription":"Survey Software, Enterprise Survey software for enterprise feedback management and CRM solutions. Enables high-quality data collection, panel management and results analysis. Perfect for market research or CRM solution (Customer Relationship Management) integration. Free trial and consultation."
+               }
+            }
+         }
+      },
+      {
+         "SurveyID":"SV_74l01cwnaGJouJ8",
+         "Element":"SCO",
+         "PrimaryAttribute":"Scoring",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":{
+            "ScoringCategories":[
+               
+            ],
+            "ScoringCategoryGroups":[
+               
+            ],
+            "ScoringSummaryCategory":null,
+            "ScoringSummaryAfterQuestions":0,
+            "ScoringSummaryAfterSurvey":0,
+            "DefaultScoringCategory":null,
+            "AutoScoringCategory":null
+         }
+      },
+      {
+         "SurveyID":"SV_74l01cwnaGJouJ8",
+         "Element":"PROJ",
+         "PrimaryAttribute":"CORE",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":"1.1.0",
+         "Payload":{
+            "ProjectCategory":"CORE",
+            "SchemaVersion":"1.1.0"
+         }
+      },
+      {
+         "SurveyID":"SV_74l01cwnaGJouJ8",
+         "Element":"STAT",
+         "PrimaryAttribute":"Survey Statistics",
+         "SecondaryAttribute":null,
+         "TertiaryAttribute":null,
+         "Payload":{
+            "MobileCompatible":true,
+            "ID":"Survey Statistics"
+         }
+      },
+      {
+         "SurveyID":"SV_74l01cwnaGJouJ8",
+         "Element":"QC",
+         "PrimaryAttribute":"Survey Question Count",
+         "SecondaryAttribute":"2",
+         "TertiaryAttribute":null,
+         "Payload":null
+      },
+      {
+         "SurveyID":"SV_74l01cwnaGJouJ8",
+         "Element":"RS",
+         "PrimaryAttribute":"RS_1zbn5YwLGbZTGV8",
+         "SecondaryAttribute":"Conjunto de respostas padr\u00e3o",
+         "TertiaryAttribute":null,
+         "Payload":null
+      },
+      {
+         "SurveyID":"SV_74l01cwnaGJouJ8",
+         "Element":"SQ",
+         "PrimaryAttribute":"QID2",
+         "SecondaryAttribute":"Este \u00e9 o seu endere\u00e7o:",
+         "TertiaryAttribute":null,
+         "Payload":{
+            "QuestionText":"Este \u00e9 o seu endere\u00e7o:",
+            "DefaultChoices":{
+               "1":{
+                  "TEXT":{
+                     "Text":"${e:\/\/Field\/street}"
+                  }
+               },
+               "2":{
+                  "TEXT":{
+                     "Text":"${e:\/\/Field\/neighborhood}"
+                  }
+               },
+               "3":{
+                  "TEXT":{
+                     "Text":"${e:\/\/Field\/city}"
+                  }
+               },
+               "4":{
+                  "TEXT":{
+                     "Text":"${e:\/\/Field\/state}"
+                  }
+               }
+            },
+            "DataExportTag":"Q2",
+            "QuestionType":"TE",
+            "Selector":"FORM",
+            "Configuration":{
+               "QuestionDescriptionOption":"UseText",
+               "InputWidth":299,
+               "InputHeight":29
+            },
+            "QuestionDescription":"Este \u00e9 o seu endere\u00e7o:",
+            "Choices":{
+               "1":{
+                  "Display":"Endere\u00e7o",
+                  "TextEntry":"on",
+                  "InputHeight":29,
+                  "InputWidth":431
+               },
+               "2":{
+                  "Display":"Bairro",
+                  "TextEntry":"on",
+                  "InputHeight":29,
+                  "InputWidth":238
+               },
+               "3":{
+                  "Display":"Cidade",
+                  "TextEntry":"on",
+                  "InputHeight":29,
+                  "InputWidth":238
+               },
+               "4":{
+                  "Display":"Estado",
+                  "TextEntry":"on",
+                  "InputHeight":29,
+                  "InputWidth":238
+               }
+            },
+            "ChoiceOrder":[
+               1,
+               2,
+               3,
+               4
+            ],
+            "Validation":{
+               "Settings":{
+                  "ForceResponse":"OFF"
+               }
+            },
+            "GradingData":[
+               
+            ],
+            "Language":{
+               "EN":{
+                  "QuestionText":"This is the address:",
+                  "Choices":{
+                     "1":{
+                        "Display":"Address"
+                     },
+                     "2":{
+                        "Display":"Neighborhood"
+                     },
+                     "3":{
+                        "Display":"City"
+                     },
+                     "4":{
+                        "Display":"State"
+                     }
+                  }
+               }
+            },
+            "NextChoiceId":5,
+            "NextAnswerId":1,
+            "SearchSource":{
+               "AllowFreeResponse":"false"
+            },
+            "QuestionID":"QID2",
+            "DataVisibility":{
+               "Private":false,
+               "Hidden":false
+            },
+            "QuestionText_Unsafe":"Este \u00e9 o seu endere\u00e7o:"
+         }
+      },
+      {
+         "SurveyID":"SV_74l01cwnaGJouJ8",
+         "Element":"SQ",
+         "PrimaryAttribute":"QID1",
+         "SecondaryAttribute":"Insira o seu CEP:",
+         "TertiaryAttribute":null,
+         "Payload":{
+            "QuestionText":"Insira o seu CEP:<br>",
+            "DefaultChoices":false,
+            "DataExportTag":"Q1",
+            "QuestionID":"QID1",
+            "QuestionType":"TE",
+            "Selector":"SL",
+            "Configuration":{
+               "QuestionDescriptionOption":"UseText",
+               "InputWidth":268,
+               "InputHeight":29
+            },
+            "QuestionDescription":"Insira o seu CEP:",
+            "Validation":{
+               "Settings":{
+                  "ForceResponse":"OFF",
+                  "Type":"None"
+               }
+            },
+            "GradingData":[
+               
+            ],
+            "Language":{
+               "EN":{
+                  "QuestionText":"Type the Brazilian postal code below (format 00000-000):"
+               }
+            },
+            "NextChoiceId":4,
+            "NextAnswerId":1,
+            "SearchSource":{
+               "AllowFreeResponse":"false"
+            },
+            "DataVisibility":{
+               "Private":false,
+               "Hidden":false
+            },
+            "QuestionText_Unsafe":"Insira o seu CEP:<br>"
+         }
+      }
+   ]
+}
