@@ -2,7 +2,7 @@
 This repository contains custom survey templates that addresses common business needs.
 
 ## Summary
-- **address-search-tool:** It implements an address search tool by Brazil Postal Codes using public API
+- **address-search-tool:** It implements an address search tool by Brazil Postal Code using public API
 - **nps-10-pont-scale:** It implements the NPS question on a 10 point scale (from 1 to 10), instead of the traditional 11 point scale (from 0 to 10), using javascript
 
 
