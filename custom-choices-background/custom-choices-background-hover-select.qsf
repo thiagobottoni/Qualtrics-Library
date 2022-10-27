@@ -1,0 +1,488 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+    "SurveyName": "Custom Choices Background, Hover and Select",
+    "SurveyDescription": null,
+    "SurveyOwnerID": "UR_cuppQqWTlam3hZQ",
+    "SurveyBrandID": "qdemo",
+    "DivisionID": "DV_51IeqeCbv2poD6l",
+    "SurveyLanguage": "EN",
+    "SurveyActiveResponseSet": "RS_40aSZ94HdbrKVQq",
+    "SurveyStatus": "Active",
+    "SurveyStartDate": "0000-00-00 00:00:00",
+    "SurveyExpirationDate": "0000-00-00 00:00:00",
+    "SurveyCreationDate": "2022-10-26 07:07:45",
+    "CreatorID": "UR_cuppQqWTlam3hZQ",
+    "LastModified": "2022-10-26 11:57:47",
+    "LastAccessed": "0000-00-00 00:00:00",
+    "LastActivated": "2022-10-26 11:57:47",
+    "Deleted": null
+  },
+  "SurveyElements": [
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": [
+        {
+          "Type": "Default",
+          "Description": "Default Question Block",
+          "ID": "BL_6oi7GXTKzqb3ofs",
+          "BlockElements": [
+            {
+              "Type": "Question",
+              "QuestionID": "QID1"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID2"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID3"
+            }
+          ]
+        },
+        {
+          "Type": "Trash",
+          "Description": "Trash / Unused Questions",
+          "ID": "BL_eX2y75mWFhTzONo"
+        }
+      ]
+    },
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "FL",
+      "PrimaryAttribute": "Survey Flow",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Flow": [
+          {
+            "ID": "BL_6oi7GXTKzqb3ofs",
+            "Type": "Block",
+            "FlowID": "FL_2"
+          }
+        ],
+        "Properties": {
+          "Count": 2
+        },
+        "FlowID": "FL_1",
+        "Type": "Root"
+      }
+    },
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "PL",
+      "PrimaryAttribute": "Preview Link",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "PreviewType": "Brand",
+        "PreviewID": "35a176ce-24a7-4692-9dcf-ceb9bc9f792d"
+      }
+    },
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "SO",
+      "PrimaryAttribute": "Survey Options",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "BackButton": "false",
+        "SaveAndContinue": "false",
+        "SurveyProtection": "PublicSurvey",
+        "BallotBoxStuffingPrevention": "false",
+        "NoIndex": "Yes",
+        "SecureResponseFiles": "true",
+        "SurveyExpiration": "None",
+        "SurveyTermination": "DefaultMessage",
+        "Header": "",
+        "Footer": "",
+        "ProgressBarDisplay": "None",
+        "PartialData": "No",
+        "ValidationMessage": null,
+        "PreviousButton": " ← ",
+        "NextButton": " → ",
+        "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+        "SkinLibrary": "qdemo",
+        "SkinType": "templated",
+        "Skin": {
+          "brandingId": "6390112371",
+          "templateId": "*2014",
+          "overrides": null
+        },
+        "NewScoring": 1,
+        "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today.",
+        "CustomStyles": {
+          "customCSS": "/* Overwrites the primary colors when the choices are selected for all questions\n(Pt-Br: Sobrescreve as cores primárias de seleção das respostas para todas as perguntas) */\n.Skin [id^=\"QID\"][id*=\"label\"].SingleAnswer.q-checked.q-focused {\n\tbackground-color:#093969 !important; /* dark blue (Pt-Br: azul escuro) */\n\tcolor:white !important;\n}\n\n\n/* Q1 - NPS QUESTION (Pt-Br: PERGUNTA NPS) */\n\n/* Background color for detractor scores\n(Pt-Br: cor de fundo para notas detratoras) */\n#QID1-0-label, #QID1-1-label, #QID1-2-label, #QID1-3-label, #QID1-4-label, #QID1-5-label, #QID1-6-label {\n    background-color:#F8817F; /* light red (Pt-Br: vermelho claro) */\n}\n\n/* Background color for passive scores\n(Pt-Br: cor de fundo para notas passivas) */\n#QID1-7-label, #QID1-8-label {\n    background-color:#F3F87F; /* light yellow (Pt-Br: amarelo claro) */\n}\n\n/* Background color for promoter scores\n(Pt-Br: cor de fundo para notas promotoras) */\n#QID1-9-label, #QID1-10-label {\n    background-color:#7FF8AD; /* light green (Pt-Br: verde claro) */\n}\n\n\n/* Q2 - FIRST CSAT QUESTION (Pt-Br: PRIMEIRA PERGUNTA CSAT) */\n\n/* Sets up the background color for when users hover over the question choices\n(Pt-Br: Configura a cor de fundo para quando os usuários passam o mouse sobre as opções de respostas) */\n#QID2-4-label:hover, #QID2-5-label:hover {\n\tbackground-color:#7FF8AD; /* light green (Pt-Br: verde claro) */\n}\n#QID2-3-label:hover {\n\tbackground-color:#F3F87F; /* light yellow (Pt-Br: amarelo claro) */\n}\n#QID2-1-label:hover, #QID2-2-label:hover {\n\tbackground-color:#F8817F; /* light red (Pt-Br: vermelho claro) */\n}\n\n\n/* Sets up the background color for the selected choice of this question only\n(Pt-Br: Configura a cor de fundo das respostas selecionadas para essa pergunta apenas */\n#QID2-5-label.SingleAnswer.q-checked, #QID2-4-label.SingleAnswer.q-checked {\n\tbackground-color:green !important;\n}\n#QID2-3-label.SingleAnswer.q-checked {\n\tbackground-color:yellow !important;\n\tcolor:black !important;\n}\n#QID2-2-label.SingleAnswer.q-checked, #QID2-1-label.SingleAnswer.q-checked {\n\tbackground-color:red !important;\n}\n\n\n/* Q3 - SECOND CSAT QUESTION (Pt-Br: SEGUNDA PERGUNTA CSAT) */\n\n/* Background color for the second CSAT question on a 5-point scale\n(Pt-br: cor de fundo para a segunda pergunta CSAT em uma escala de 5 pontos)\n*/\n#QID3-4-label, #QID3-5-label {\n\tbackground-color:#7FF8AD; /* light green (Pt-Br: verde claro) */\n}\n#QID3-3-label {\n\tbackground-color:#F3F87F; /* light yellow (Pt-Br: amarelo claro) */\n}\n#QID3-1-label, #QID3-2-label {\n\tbackground-color:#F8817F; /* light red (Pt-Br: vermelho claro) */\n}"
+        },
+        "SurveyName": "Custom Choices Background, Hover and Select",
+        "AvailableLanguages": {
+          "EN": [],
+          "PT-BR": []
+        },
+        "CustomLanguages": [],
+        "SurveyCreationDate": "2022-10-26 07:07:45",
+        "MetaDataTranslations": {
+          "PT-BR": {
+            "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+            "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today. "
+          }
+        },
+        "EOSMessage": null,
+        "ShowExportTags": "false",
+        "CollectGeoLocation": "false",
+        "PasswordProtection": "No",
+        "AnonymizeResponse": "Yes",
+        "RefererCheck": "No",
+        "BallotBoxStuffingPreventionBehavior": null,
+        "BallotBoxStuffingPreventionMessage": null,
+        "BallotBoxStuffingPreventionMessageLibrary": null,
+        "BallotBoxStuffingPreventionURL": null,
+        "RecaptchaV3": "false",
+        "ConfirmStart": false,
+        "AutoConfirmStart": false,
+        "RelevantID": "false",
+        "RelevantIDLockoutPeriod": "+30 days",
+        "UseCustomSurveyLinkCompletedMessage": null,
+        "SurveyLinkCompletedMessage": null,
+        "SurveyLinkCompletedMessageLibrary": null,
+        "ResponseSummary": "No",
+        "EOSMessageLibrary": null,
+        "EOSRedirectURL": null,
+        "EmailThankYou": "false",
+        "ThankYouEmailMessageLibrary": null,
+        "ThankYouEmailMessage": null,
+        "ValidateMessage": "false",
+        "ValidationMessageLibrary": null,
+        "InactiveSurvey": "DefaultMessage",
+        "PartialDeletion": "+1 hour",
+        "PartialDataCloseAfter": "SurveyStart",
+        "InactiveMessageLibrary": null,
+        "InactiveMessage": null
+      }
+    },
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "SCO",
+      "PrimaryAttribute": "Scoring",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ScoringCategories": [],
+        "ScoringCategoryGroups": [],
+        "ScoringSummaryCategory": null,
+        "ScoringSummaryAfterQuestions": 0,
+        "ScoringSummaryAfterSurvey": 0,
+        "DefaultScoringCategory": null,
+        "AutoScoringCategory": null
+      }
+    },
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "PROJ",
+      "PrimaryAttribute": "CORE",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": "1.1.0",
+      "Payload": {
+        "ProjectCategory": "CORE",
+        "SchemaVersion": "1.1.0"
+      }
+    },
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "STAT",
+      "PrimaryAttribute": "Survey Statistics",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "MobileCompatible": false,
+        "ID": "Survey Statistics"
+      }
+    },
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "QC",
+      "PrimaryAttribute": "Survey Question Count",
+      "SecondaryAttribute": "3",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "RS",
+      "PrimaryAttribute": "RS_40aSZ94HdbrKVQq",
+      "SecondaryAttribute": "Default Response Set",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID1",
+      "SecondaryAttribute": "How likely are you to recommend our company to a friend or colleague?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "How likely are you to recommend our company to a friend or colleague?",
+        "DataExportTag": "Q1",
+        "QuestionType": "MC",
+        "Selector": "NPS",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText"
+        },
+        "QuestionDescription": "How likely are you to recommend our company to a friend or colleague?",
+        "Choices": [
+          {
+            "Display": "0"
+          },
+          {
+            "Display": "1"
+          },
+          {
+            "Display": "2"
+          },
+          {
+            "Display": "3"
+          },
+          {
+            "Display": "4"
+          },
+          {
+            "Display": "5"
+          },
+          {
+            "Display": "6"
+          },
+          {
+            "Display": "7"
+          },
+          {
+            "Display": "8"
+          },
+          {
+            "Display": "9"
+          },
+          {
+            "Display": "10"
+          }
+        ],
+        "ChoiceOrder": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "Type": "None"
+          }
+        },
+        "Language": {
+          "PT-BR": {
+            "QuestionText": "Em uma escala de 0 a 10, qual a probabilidade de você nos recomendar para um amigo ou colega?",
+            "ColumnLabels": [
+              {
+                "Display": "Pouco provável"
+              },
+              {
+                "Display": "Muito provável"
+              }
+            ]
+          }
+        },
+        "NextChoiceId": 11,
+        "NextAnswerId": 1,
+        "QuestionID": "QID1",
+        "DefaultChoices": false,
+        "GradingData": [],
+        "ColumnLabels": [
+          {
+            "Display": "Not at all likely",
+            "IsLabelDefault": true
+          },
+          {
+            "Display": "Extremely likely",
+            "IsLabelDefault": true
+          }
+        ]
+      }
+    },
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID3",
+      "SecondaryAttribute": "How satisfied are you with our products?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "How satisfied are you with our products?",
+        "DefaultChoices": false,
+        "DataExportTag": "Q3",
+        "QuestionType": "MC",
+        "Selector": "SAHR",
+        "SubSelector": "TX",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "Autoscale": {
+            "YScale": {
+              "Name": "satisfiedDissatisfied",
+              "Type": "likert",
+              "Reverse": false
+            }
+          },
+          "LabelPosition": "BELOW"
+        },
+        "QuestionDescription": "How satisfied are you with our products?",
+        "Choices": {
+          "1": {
+            "Display": "Extremely dissatisfied"
+          },
+          "2": {
+            "Display": "Somewhat dissatisfied"
+          },
+          "3": {
+            "Display": "Neither satisfied nor dissatisfied"
+          },
+          "4": {
+            "Display": "Somewhat satisfied"
+          },
+          "5": {
+            "Display": "Extremely satisfied"
+          }
+        },
+        "ChoiceOrder": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": {
+          "PT-BR": {
+            "QuestionText": "Quão satisfeito(a) você está com os nossos produtos?",
+            "Choices": {
+              "1": {
+                "Display": "Extremamente insatisfeito(a)"
+              },
+              "2": {
+                "Display": "Parcialmente insatisfeito(a)"
+              },
+              "3": {
+                "Display": "Nem satisfeito(a), nem insatisfeito(a)"
+              },
+              "4": {
+                "Display": "Parcialmente satisfeito(a)"
+              },
+              "5": {
+                "Display": "Extremamente satisfeito(a)"
+              }
+            }
+          }
+        },
+        "NextChoiceId": 6,
+        "NextAnswerId": 1,
+        "QuestionID": "QID3"
+      }
+    },
+    {
+      "SurveyID": "SV_a2V6Q9dMDJj5bRc",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID2",
+      "SecondaryAttribute": "How satisfied are you with our services?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "How satisfied are you with our services?",
+        "DefaultChoices": false,
+        "DataExportTag": "Q2",
+        "QuestionType": "MC",
+        "Selector": "SAHR",
+        "SubSelector": "TX",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "Autoscale": {
+            "YScale": {
+              "Name": "satisfiedDissatisfied",
+              "Type": "likert",
+              "Reverse": false
+            }
+          },
+          "LabelPosition": "BELOW"
+        },
+        "QuestionDescription": "How satisfied are you with our services?",
+        "Choices": {
+          "1": {
+            "Display": "Extremely dissatisfied"
+          },
+          "2": {
+            "Display": "Somewhat dissatisfied"
+          },
+          "3": {
+            "Display": "Neither satisfied nor dissatisfied"
+          },
+          "4": {
+            "Display": "Somewhat satisfied"
+          },
+          "5": {
+            "Display": "Extremely satisfied"
+          }
+        },
+        "ChoiceOrder": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": {
+          "PT-BR": {
+            "QuestionText": "Quão satisfeito(a) você está com os nossos serviços?",
+            "Choices": {
+              "1": {
+                "Display": "Extremamente insatisfeito(a)"
+              },
+              "2": {
+                "Display": "Parcialmente insatisfeito(a)"
+              },
+              "3": {
+                "Display": "Nem satisfeito(a), nem insatisfeito(a)"
+              },
+              "4": {
+                "Display": "Parcialmente satisfeito(a)"
+              },
+              "5": {
+                "Display": "Extremamente satisfeito(a)"
+              }
+            }
+          }
+        },
+        "NextChoiceId": 6,
+        "NextAnswerId": 1,
+        "QuestionID": "QID2"
+      }
+    }
+  ]
+}
