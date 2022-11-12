@@ -1,0 +1,511 @@
+{
+   "SurveyEntry": {
+      "SurveyID": "SV_cYLR5dfwEPcTM3k",
+      "SurveyName": "Math Operations in the Survey Flow",
+      "SurveyDescription": null,
+      "SurveyOwnerID": "UR_cuppQqWTlam3hZQ",
+      "SurveyBrandID": "qdemo",
+      "DivisionID": "DV_51IeqeCbv2poD6l",
+      "SurveyLanguage": "PT-BR",
+      "SurveyActiveResponseSet": "RS_6L53ZGmL68RkmWy",
+      "SurveyStatus": "Active",
+      "SurveyStartDate": "0000-00-00 00:00:00",
+      "SurveyExpirationDate": "0000-00-00 00:00:00",
+      "SurveyCreationDate": "2022-11-11 19:26:57",
+      "CreatorID": "UR_cuppQqWTlam3hZQ",
+      "LastModified": "2022-11-11 20:19:34",
+      "LastAccessed": "0000-00-00 00:00:00",
+      "LastActivated": "2022-11-11 20:19:34",
+      "Deleted": null
+   },
+   "SurveyElements": [
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "BL",
+         "PrimaryAttribute": "Survey Blocks",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": [
+            {
+               "Type": "Default",
+               "Description": "Numbers",
+               "ID": "BL_9FVaSRFByJudAnY",
+               "BlockElements": [
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID1"
+                  },
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID2"
+                  }
+               ]
+            },
+            {
+               "Type": "Trash",
+               "Description": "Lixeira/perguntas não usadas",
+               "ID": "BL_5tEDuualSJYCnAO"
+            },
+            {
+               "Type": "Standard",
+               "SubType": "",
+               "Description": "Results",
+               "ID": "BL_dhfyCJzNbUTudGm",
+               "BlockElements": [
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID3"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "FL",
+         "PrimaryAttribute": "Survey Flow",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "Type": "Root",
+            "FlowID": "FL_1",
+            "Flow": [
+               {
+                  "Type": "EmbeddedData",
+                  "FlowID": "FL_5",
+                  "EmbeddedData": [
+                     {
+                        "Description": "Addition",
+                        "Type": "Custom",
+                        "Field": "Addition",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ 1 + 1 }"
+                     },
+                     {
+                        "Description": "Subtraction",
+                        "Type": "Custom",
+                        "Field": "Subtraction",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ 10 - 2 }"
+                     },
+                     {
+                        "Description": "Multiplication",
+                        "Type": "Custom",
+                        "Field": "Multiplication",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ 2 * 2 }"
+                     },
+                     {
+                        "Description": "Division",
+                        "Type": "Custom",
+                        "Field": "Division",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ 10 / 2 }"
+                     },
+                     {
+                        "Description": "Exponent",
+                        "Type": "Custom",
+                        "Field": "Exponent",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ 6 ^ 2 }"
+                     },
+                     {
+                        "Description": "Square Root",
+                        "Type": "Custom",
+                        "Field": "Square Root",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ sqrt( 25 ) }"
+                     },
+                     {
+                        "Description": "Absolute Value",
+                        "Type": "Custom",
+                        "Field": "Absolute Value",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ abs( -100 ) }"
+                     },
+                     {
+                        "Description": "Round",
+                        "Type": "Custom",
+                        "Field": "Round",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ round( 1.59 , 1 ) }"
+                     },
+                     {
+                        "Description": "Remainder",
+                        "Type": "Custom",
+                        "Field": "Remainder",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ 16 % 9 }"
+                     },
+                     {
+                        "Description": "Random",
+                        "Type": "Custom",
+                        "Field": "Random",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "2"
+                     }
+                  ]
+               },
+               {
+                  "Type": "Block",
+                  "ID": "BL_9FVaSRFByJudAnY",
+                  "FlowID": "FL_2",
+                  "Autofill": []
+               },
+               {
+                  "Type": "EmbeddedData",
+                  "FlowID": "FL_4",
+                  "EmbeddedData": [
+                     {
+                        "Description": "q_Sum",
+                        "Type": "Custom",
+                        "Field": "q_Sum",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ q://QID1/ChoiceTextEntryValue + q://QID2/ChoiceTextEntryValue }"
+                     },
+                     {
+                        "Description": "q_Sub",
+                        "Type": "Custom",
+                        "Field": "q_Sub",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ q://QID1/ChoiceTextEntryValue - q://QID2/ChoiceTextEntryValue }"
+                     },
+                     {
+                        "Description": "q_Mult",
+                        "Type": "Custom",
+                        "Field": "q_Mult",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ q://QID1/ChoiceTextEntryValue * q://QID2/ChoiceTextEntryValue }"
+                     },
+                     {
+                        "Description": "q_Div",
+                        "Type": "Custom",
+                        "Field": "q_Div",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ q://QID1/ChoiceTextEntryValue / q://QID2/ChoiceTextEntryValue }"
+                     },
+                     {
+                        "Description": "qe_Exp",
+                        "Type": "Custom",
+                        "Field": "qe_Exp",
+                        "VariableType": "Scale",
+                        "DataVisibility": [],
+                        "Value": "$e{ q://QID1/ChoiceTextEntryValue ^ e://Field/Random }"
+                     }
+                  ]
+               },
+               {
+                  "Type": "Standard",
+                  "ID": "BL_dhfyCJzNbUTudGm",
+                  "FlowID": "FL_3",
+                  "Autofill": []
+               }
+            ],
+            "Properties": {
+               "Count": 5,
+               "RemovedFieldsets": []
+            }
+         }
+      },
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "PL",
+         "PrimaryAttribute": "Preview Link",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "PreviewType": "Brand",
+            "PreviewID": "1fc2e5e9-8cc0-4ad0-901b-0f789bda807f"
+         }
+      },
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "SO",
+         "PrimaryAttribute": "Survey Options",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "BackButton": "false",
+            "SaveAndContinue": "false",
+            "SurveyProtection": "PublicSurvey",
+            "BallotBoxStuffingPrevention": "false",
+            "NoIndex": "Yes",
+            "SecureResponseFiles": "true",
+            "SurveyExpiration": "None",
+            "SurveyTermination": "DefaultMessage",
+            "Header": "",
+            "Footer": "",
+            "ProgressBarDisplay": "None",
+            "PartialData": "No",
+            "ValidationMessage": null,
+            "PreviousButton": " ← ",
+            "NextButton": " → ",
+            "SurveyTitle": "Pesquisa Qualtrics | Gestão da experiência do Qualtrics",
+            "SkinLibrary": "qdemo",
+            "SkinType": "templated",
+            "Skin": {
+               "brandingId": "6390112371",
+               "templateId": "*2014",
+               "overrides": null
+            },
+            "NewScoring": 1,
+            "SurveyMetaDescription": "A maneira mais avançada, simples e confiável de coletar dados de experiência. Comece a sua jornada para a gestão da experiência e teste uma conta gratuita hoje.",
+            "CustomStyles": [],
+            "EOSMessage": null,
+            "ShowExportTags": "false",
+            "CollectGeoLocation": "false",
+            "PasswordProtection": "No",
+            "AnonymizeResponse": "Yes",
+            "RefererCheck": "No",
+            "BallotBoxStuffingPreventionBehavior": null,
+            "BallotBoxStuffingPreventionMessage": null,
+            "BallotBoxStuffingPreventionMessageLibrary": null,
+            "BallotBoxStuffingPreventionURL": null,
+            "RecaptchaV3": "false",
+            "ConfirmStart": false,
+            "AutoConfirmStart": false,
+            "RelevantID": "false",
+            "RelevantIDLockoutPeriod": "+30 days",
+            "UseCustomSurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessageLibrary": null,
+            "ResponseSummary": "No",
+            "EOSMessageLibrary": null,
+            "EOSRedirectURL": null,
+            "EmailThankYou": "false",
+            "ThankYouEmailMessageLibrary": null,
+            "ThankYouEmailMessage": null,
+            "ValidateMessage": "false",
+            "ValidationMessageLibrary": null,
+            "InactiveSurvey": "DefaultMessage",
+            "PartialDeletion": "+1 hour",
+            "PartialDataCloseAfter": "LastActivity",
+            "InactiveMessageLibrary": null,
+            "InactiveMessage": null,
+            "AvailableLanguages": {
+               "PT-BR": [],
+               "EN": []
+            },
+            "CustomLanguages": [],
+            "SurveyCreationDate": "2022-11-11 19:26:57",
+            "MetaDataTranslations": {
+               "EN": {
+                  "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+                  "SurveyMetaDescription": "The most advanced, simple and reliable way to collect experience data. Start your journey to experience management and try a free account today. "
+               }
+            }
+         }
+      },
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "SCO",
+         "PrimaryAttribute": "Scoring",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "ScoringCategories": [],
+            "ScoringCategoryGroups": [],
+            "ScoringSummaryCategory": null,
+            "ScoringSummaryAfterQuestions": 0,
+            "ScoringSummaryAfterSurvey": 0,
+            "DefaultScoringCategory": null,
+            "AutoScoringCategory": null
+         }
+      },
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "PROJ",
+         "PrimaryAttribute": "CORE",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": "1.1.0",
+         "Payload": {
+            "ProjectCategory": "CORE",
+            "SchemaVersion": "1.1.0"
+         }
+      },
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "STAT",
+         "PrimaryAttribute": "Survey Statistics",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "MobileCompatible": true,
+            "ID": "Survey Statistics"
+         }
+      },
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "QC",
+         "PrimaryAttribute": "Survey Question Count",
+         "SecondaryAttribute": "3",
+         "TertiaryAttribute": null,
+         "Payload": null
+      },
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID3",
+         "SecondaryAttribute": "Aqui estão os resultados:Cálculos básicos do Survey Flow: (Soma) 1 + 1 = ${e://Field/Addition} (",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "<b>Aqui estão os resultados:</b><br><br><b>Cálculos básicos do Survey Flow:</b><br>(Soma) 1 + 1 =&nbsp;${e://Field/Addition}<br>(Subtração) 10 - 2 =&nbsp;${e://Field/Subtraction}<br>(Multiplicação) 2 * 2 =&nbsp;${e://Field/Multiplication}<br>(Divisão) 10 / 2 =&nbsp;${e://Field/Division}<br>(Potência) 6&nbsp;^ 2 =&nbsp;${e://Field/Exponent}<br>(Raíz Quadrada) 25 =&nbsp;${e://Field/Square%20Root}<br>(Valor Absoluto) -100 =&nbsp;${e://Field/Absolute%20Value}<br>(Arredondamento) 1,59 =&nbsp;${e://Field/Round}<br>(Resto) 16 / 9 =&nbsp;${e://Field/Remainder}<br><br><b>Cálculos com os números informados por você na pesquisa:<br></b>-----------------------------------<br>Número 1 =&nbsp;${q://QID1/ChoiceTextEntryValue}<br>Número 2 =&nbsp;${q://QID2/ChoiceTextEntryValue}<br>-----------------------------------<br>Soma =&nbsp;${e://Field/q_Sum}<br>Subtração =&nbsp;${e://Field/q_Sub}<br>Multiplicação =&nbsp;${e://Field/q_Mult}<br>Divisão =&nbsp;${e://Field/q_Div}<br><br><b>Cálculo usando a resposta de uma pergunta e um dado integrado:</b><br>-----------------------------------<br>Número 1 (digitado pelo usuário) =&nbsp;${q://QID1/ChoiceTextEntryValue}<br>Número 2 (dado integrado) =&nbsp;${e://Field/Random}<br>-----------------------------------<br>Potência =&nbsp;${e://Field/qe_Exp}<br>",
+            "DefaultChoices": false,
+            "DataExportTag": "Q3",
+            "QuestionType": "DB",
+            "Selector": "TB",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText"
+            },
+            "QuestionDescription": "Aqui estão os resultados:Cálculos básicos do Survey Flow: (Soma) 1 + 1 = ${e://Field/Addition} (S...",
+            "ChoiceOrder": [],
+            "Validation": {
+               "Settings": {
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "<b>Here are the results:</b><br />\n<br />\n<b>Basic math operations in the Survey Flow:</b><br />\n(Sum) 1 + 1 = ${e://Field/Addition}<br />\n(Subtraction) 10 - 2 = ${e://Field/Subtraction}<br />\n(Multiplication) 2 * 2 = ${e://Field/Multiplication}<br />\n(Division) 10 / 2 = ${e://Field/Division}<br />\n(Exponent) 6 ^ 2 = ${e://Field/Exponent}<br />\n(Square Root) 25 = ${e://Field/Square%20Root}<br />\n(Absolute Value) -100 = ${e://Field/Absolute%20Value}<br />\n(Round) 1.59 = ${e://Field/Round}<br />\n(Remainder) 16 / 9 = ${e://Field/Remainder}<br />\n<br />\n<b>Math operations with the numbers provided by you in the survey:</b><br />\n-----------------------------------<br />\nNumber #1 = ${q://QID1/ChoiceTextEntryValue}<br />\nNumber #2 = ${q://QID2/ChoiceTextEntryValue}<br />\n-----------------------------------<br />\nSum = ${e://Field/q_Sum}<br />\nSubtraction = ${e://Field/q_Sub}<br />\nMultiplication = ${e://Field/q_Mult}<br />\nDivision = ${e://Field/q_Div}<br />\n<br />\n<b>Math operation using a response and an embedded data:</b><br />\n-----------------------------------<br />\nNumber #1 (typed by you) = ${q://QID1/ChoiceTextEntryValue}<br />\nNumber #2 (embedded data) = ${e://Field/Random}<br />\n-----------------------------------<br />\nExponent = ${e://Field/qe_Exp}"
+               }
+            },
+            "NextChoiceId": 4,
+            "NextAnswerId": 1,
+            "QuestionID": "QID3",
+            "DataVisibility": {
+               "Private": false,
+               "Hidden": false
+            }
+         }
+      },
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "RS",
+         "PrimaryAttribute": "RS_6L53ZGmL68RkmWy",
+         "SecondaryAttribute": "Conjunto de respostas padrão",
+         "TertiaryAttribute": null,
+         "Payload": null
+      },
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID1",
+         "SecondaryAttribute": "Digite o primeiro número:",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "Digite o primeiro número:",
+            "DefaultChoices": false,
+            "DataExportTag": "Q1",
+            "QuestionID": "QID1",
+            "QuestionType": "TE",
+            "Selector": "SL",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText",
+               "InputWidth": 203,
+               "InputHeight": 29
+            },
+            "QuestionDescription": "Digite o primeiro número:",
+            "Validation": {
+               "Settings": {
+                  "ForceResponse": "OFF",
+                  "ForceResponseType": "ON",
+                  "Type": "ContentType",
+                  "MinChars": "1",
+                  "ContentType": "ValidNumber",
+                  "ValidDateType": "DateWithFormat",
+                  "ValidPhoneType": "ValidUSPhone",
+                  "ValidZipType": "ValidUSZip",
+                  "ValidNumber": {
+                     "Min": "1",
+                     "Max": "100",
+                     "NumDecimals": "0"
+                  }
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "Type the first number:"
+               }
+            },
+            "NextChoiceId": 4,
+            "NextAnswerId": 1,
+            "SearchSource": {
+               "AllowFreeResponse": "false"
+            },
+            "DataVisibility": {
+               "Private": false,
+               "Hidden": false
+            }
+         }
+      },
+      {
+         "SurveyID": "SV_cYLR5dfwEPcTM3k",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID2",
+         "SecondaryAttribute": "Digite o segundo número:",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "Digite o segundo número:",
+            "DefaultChoices": false,
+            "DataExportTag": "Q2",
+            "QuestionType": "TE",
+            "Selector": "SL",
+            "DataVisibility": {
+               "Private": false,
+               "Hidden": false
+            },
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText",
+               "InputWidth": 208,
+               "InputHeight": 29
+            },
+            "QuestionDescription": "Digite o segundo número:",
+            "Validation": {
+               "Settings": {
+                  "ForceResponse": "OFF",
+                  "ForceResponseType": "ON",
+                  "Type": "ContentType",
+                  "MinChars": "1",
+                  "ContentType": "ValidNumber",
+                  "ValidDateType": "DateWithFormat",
+                  "ValidPhoneType": "ValidUSPhone",
+                  "ValidZipType": "ValidUSZip",
+                  "ValidNumber": {
+                     "Min": "",
+                     "Max": "",
+                     "NumDecimals": "0"
+                  }
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "Type the second number:"
+               }
+            },
+            "NextChoiceId": 4,
+            "NextAnswerId": 1,
+            "SearchSource": {
+               "AllowFreeResponse": "false"
+            },
+            "QuestionID": "QID2"
+         }
+      }
+   ]
+}
