@@ -1,0 +1,300 @@
+{
+   "SurveyEntry": {
+      "SurveyID": "SV_0VerIwEzyJbhCNU",
+      "SurveyName": "5-Star Rating Question",
+      "SurveyDescription": null,
+      "SurveyOwnerID": "UR_cuppQqWTlam3hZQ",
+      "SurveyBrandID": "qdemo",
+      "DivisionID": "DV_51IeqeCbv2poD6l",
+      "SurveyLanguage": "PT-BR",
+      "SurveyActiveResponseSet": "RS_eeoXGisRnQvzxBA",
+      "SurveyStatus": "Active",
+      "SurveyStartDate": "0000-00-00 00:00:00",
+      "SurveyExpirationDate": "0000-00-00 00:00:00",
+      "SurveyCreationDate": "2022-11-14 08:37:23",
+      "CreatorID": "UR_cuppQqWTlam3hZQ",
+      "LastModified": "2022-11-14 14:25:29",
+      "LastAccessed": "0000-00-00 00:00:00",
+      "LastActivated": "2022-11-14 14:25:09",
+      "Deleted": null
+   },
+   "SurveyElements": [
+      {
+         "SurveyID": "SV_0VerIwEzyJbhCNU",
+         "Element": "BL",
+         "PrimaryAttribute": "Survey Blocks",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": [
+            {
+               "Type": "Default",
+               "Description": "Default Question Block",
+               "ID": "BL_37Q1Gx3JCEab1wG",
+               "BlockElements": [
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID1"
+                  }
+               ]
+            },
+            {
+               "Type": "Trash",
+               "Description": "Trash / Unused Questions",
+               "ID": "BL_3QO4H7KECCQ3dcO"
+            }
+         ]
+      },
+      {
+         "SurveyID": "SV_0VerIwEzyJbhCNU",
+         "Element": "FL",
+         "PrimaryAttribute": "Survey Flow",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "Flow": [
+               {
+                  "ID": "BL_37Q1Gx3JCEab1wG",
+                  "Type": "Block",
+                  "FlowID": "FL_2"
+               }
+            ],
+            "Properties": {
+               "Count": 2
+            },
+            "FlowID": "FL_1",
+            "Type": "Root"
+         }
+      },
+      {
+         "SurveyID": "SV_0VerIwEzyJbhCNU",
+         "Element": "PL",
+         "PrimaryAttribute": "Preview Link",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "PreviewType": "Brand",
+            "PreviewID": "d916e554-3264-45c1-977b-f9892a8eb79f"
+         }
+      },
+      {
+         "SurveyID": "SV_0VerIwEzyJbhCNU",
+         "Element": "SO",
+         "PrimaryAttribute": "Survey Options",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "BackButton": "false",
+            "SaveAndContinue": "true",
+            "SurveyProtection": "PublicSurvey",
+            "BallotBoxStuffingPrevention": "false",
+            "NoIndex": "Yes",
+            "SecureResponseFiles": "true",
+            "SurveyExpiration": "None",
+            "SurveyTermination": "DefaultMessage",
+            "Header": "",
+            "Footer": "",
+            "ProgressBarDisplay": "None",
+            "PartialData": "No",
+            "ValidationMessage": null,
+            "PreviousButton": " ← ",
+            "NextButton": " → ",
+            "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+            "SkinLibrary": "qdemo",
+            "SkinType": "templated",
+            "Skin": {
+               "brandingId": "6390112371",
+               "templateId": "*2014",
+               "overrides": null
+            },
+            "NewScoring": 1,
+            "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today.",
+            "CustomStyles": {
+               "customCSS": "#QID1-1-label, #QID1\\~1\\~result  {\n\tdisplay: none;\n}\n\n.Skin .ylabel {\n\twidth: 40%;\n}"
+            },
+            "SurveyName": "5-Star Rating Question",
+            "EOSMessage": null,
+            "ShowExportTags": "false",
+            "CollectGeoLocation": "false",
+            "PasswordProtection": "No",
+            "AnonymizeResponse": "Yes",
+            "RefererCheck": "No",
+            "BallotBoxStuffingPreventionBehavior": null,
+            "BallotBoxStuffingPreventionMessage": null,
+            "BallotBoxStuffingPreventionMessageLibrary": null,
+            "BallotBoxStuffingPreventionURL": null,
+            "RecaptchaV3": "false",
+            "ConfirmStart": false,
+            "AutoConfirmStart": false,
+            "RelevantID": "false",
+            "RelevantIDLockoutPeriod": "+30 days",
+            "UseCustomSurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessageLibrary": null,
+            "ResponseSummary": "No",
+            "EOSMessageLibrary": null,
+            "EOSRedirectURL": null,
+            "EmailThankYou": "false",
+            "ThankYouEmailMessageLibrary": null,
+            "ThankYouEmailMessage": null,
+            "ValidateMessage": "false",
+            "ValidationMessageLibrary": null,
+            "InactiveSurvey": "DefaultMessage",
+            "PartialDeletion": "+1 hour",
+            "PartialDataCloseAfter": "LastActivity",
+            "InactiveMessageLibrary": null,
+            "InactiveMessage": null,
+            "AvailableLanguages": {
+               "PT-BR": [],
+               "EN": []
+            },
+            "SurveyCreationDate": "2022-11-14 08:37:23",
+            "MetaDataTranslations": {
+               "EN": {
+                  "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management ",
+                  "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today. "
+               }
+            },
+            "CustomLanguages": []
+         }
+      },
+      {
+         "SurveyID": "SV_0VerIwEzyJbhCNU",
+         "Element": "SCO",
+         "PrimaryAttribute": "Scoring",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "ScoringCategories": [],
+            "ScoringCategoryGroups": [],
+            "ScoringSummaryCategory": null,
+            "ScoringSummaryAfterQuestions": 0,
+            "ScoringSummaryAfterSurvey": 0,
+            "DefaultScoringCategory": null,
+            "AutoScoringCategory": null
+         }
+      },
+      {
+         "SurveyID": "SV_0VerIwEzyJbhCNU",
+         "Element": "PROJ",
+         "PrimaryAttribute": "CORE",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": "1.1.0",
+         "Payload": {
+            "ProjectCategory": "CORE",
+            "SchemaVersion": "1.1.0"
+         }
+      },
+      {
+         "SurveyID": "SV_0VerIwEzyJbhCNU",
+         "Element": "STAT",
+         "PrimaryAttribute": "Survey Statistics",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "MobileCompatible": false,
+            "ID": "Survey Statistics"
+         }
+      },
+      {
+         "SurveyID": "SV_0VerIwEzyJbhCNU",
+         "Element": "QC",
+         "PrimaryAttribute": "Survey Question Count",
+         "SecondaryAttribute": "1",
+         "TertiaryAttribute": null,
+         "Payload": null
+      },
+      {
+         "SurveyID": "SV_0VerIwEzyJbhCNU",
+         "Element": "RS",
+         "PrimaryAttribute": "RS_eeoXGisRnQvzxBA",
+         "SecondaryAttribute": "Default Response Set",
+         "TertiaryAttribute": null,
+         "Payload": null
+      },
+      {
+         "SurveyID": "SV_0VerIwEzyJbhCNU",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID1",
+         "SecondaryAttribute": "Quão satisfeito(a) você está com o nosso produto?",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "Qu&atilde;o satisfeito(a) voc&ecirc; est&aacute; com o nosso produto?",
+            "DefaultChoices": false,
+            "DataExportTag": "Q1",
+            "QuestionID": "QID1",
+            "QuestionType": "Slider",
+            "Selector": "STAR",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText",
+               "CSSliderMin": 0,
+               "CSSliderMax": 100,
+               "GridLines": 10,
+               "NumDecimals": "0",
+               "ShowValue": true,
+               "StarCount": 5,
+               "StarType": "discrete",
+               "MobileFirst": false
+            },
+            "QuestionDescription": "Quão satisfeito(a) você está com o nosso produto?",
+            "Choices": {
+               "1": {
+                  "Display": "Produto"
+               }
+            },
+            "ChoiceOrder": [
+               1
+            ],
+            "Validation": {
+               "Settings": {
+                  "ForceResponse": "OFF",
+                  "Type": "CustomValidation",
+                  "CustomValidation": {
+                     "Logic": {
+                        "0": {
+                           "0": {
+                              "ChoiceLocator": "q://QID1/ChoiceNumericEntryValue/1",
+                              "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Quão satisfeito(a) você está com o nosso produto?</span> <span class=\"LeftOpDesc\">Produto</span> <span class=\"OpDesc\">Is Greater Than</span> <span class=\"RightOpDesc\"> 0 </span>",
+                              "LeftOperand": "q://QID1/ChoiceNumericEntryValue/1",
+                              "LogicType": "Question",
+                              "Operator": "GreaterThan",
+                              "QuestionID": "QID1",
+                              "QuestionIDFromLocator": "QID1",
+                              "QuestionIsInLoop": "no",
+                              "RightOperand": "0",
+                              "Type": "Expression"
+                           },
+                           "Type": "If"
+                        },
+                        "Type": "BooleanExpression"
+                     },
+                     "Message": {
+                        "description": "Require response",
+                        "libraryID": null,
+                        "messageID": null,
+                        "subMessageID": "VE_FORCE_RESPONSE"
+                     }
+                  }
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "Please rate our product",
+                  "Choices": {
+                     "1": {
+                        "Display": "Product"
+                     }
+                  }
+               }
+            },
+            "NextChoiceId": 2,
+            "NextAnswerId": 1,
+            "Labels": [],
+            "DataVisibility": {
+               "Private": false,
+               "Hidden": false
+            }
+         }
+      }
+   ]
+}
