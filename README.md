@@ -1,7 +1,9 @@
 # Qualtrics-Library
 This repository contains custom survey templates that addresses common business needs.
 
+
 ## Summary
+- **5-star-rating:** It turns a slider question into a friendly 5-star rating question
 - **address-search-tool:** It implements an address search tool by Brazil Postal Code using public API
 - **custom-choices-background:** It applies custom styles for NPS and CSAT questions using CSS
 - **math-operations-sf:** Examples of how to do math operations in the survey flow
