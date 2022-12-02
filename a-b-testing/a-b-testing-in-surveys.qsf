@@ -1,0 +1,830 @@
+{
+   "SurveyEntry": {
+      "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+      "SurveyName": "A/B Testing",
+      "SurveyDescription": null,
+      "SurveyOwnerID": "UR_cuppQqWTlam3hZQ",
+      "SurveyBrandID": "qdemo",
+      "DivisionID": "DV_51IeqeCbv2poD6l",
+      "SurveyLanguage": "PT-BR",
+      "SurveyActiveResponseSet": "RS_eQF3BFYBA6KfEPk",
+      "SurveyStatus": "Active",
+      "SurveyStartDate": "0000-00-00 00:00:00",
+      "SurveyExpirationDate": "0000-00-00 00:00:00",
+      "SurveyCreationDate": "2022-12-01 15:09:05",
+      "CreatorID": "UR_cuppQqWTlam3hZQ",
+      "LastModified": "2022-12-01 16:16:25",
+      "LastAccessed": "0000-00-00 00:00:00",
+      "LastActivated": "2022-12-01 16:16:25",
+      "Deleted": null
+   },
+   "SurveyElements": [
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "BL",
+         "PrimaryAttribute": "Survey Blocks",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": [
+            {
+               "Type": "Default",
+               "Description": "Introduction",
+               "ID": "BL_3VISp4n98Zznl6m",
+               "BlockElements": [
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID1"
+                  }
+               ]
+            },
+            {
+               "Type": "Trash",
+               "Description": "Trash / Unused Questions",
+               "ID": "BL_djwg3T3I22bpdZk",
+               "BlockElements": []
+            },
+            {
+               "Type": "Standard",
+               "SubType": "",
+               "Description": "Experience A",
+               "ID": "BL_2fNssrIcKqvQUIu",
+               "BlockElements": [
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID2"
+                  },
+                  {
+                     "Type": "Page Break"
+                  },
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID3"
+                  }
+               ]
+            },
+            {
+               "Type": "Standard",
+               "SubType": "",
+               "Description": "Experience B",
+               "ID": "BL_b8SyMtsbcUPdYB8",
+               "BlockElements": [
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID4"
+                  },
+                  {
+                     "Type": "Page Break"
+                  },
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID6"
+                  },
+                  {
+                     "Type": "Page Break"
+                  },
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID7"
+                  }
+               ]
+            },
+            {
+               "Type": "Standard",
+               "SubType": "",
+               "Description": "Survey CSAT",
+               "ID": "BL_6sUmwvWgrChHDwy",
+               "BlockElements": [
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID9"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "FL",
+         "PrimaryAttribute": "Survey Flow",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "Type": "Root",
+            "FlowID": "FL_1",
+            "Flow": [
+               {
+                  "Type": "Block",
+                  "ID": "BL_3VISp4n98Zznl6m",
+                  "FlowID": "FL_2",
+                  "Autofill": []
+               },
+               {
+                  "Type": "BlockRandomizer",
+                  "FlowID": "FL_6",
+                  "SubSet": 1,
+                  "EvenPresentation": true,
+                  "Flow": [
+                     {
+                        "Type": "EmbeddedData",
+                        "FlowID": "FL_7",
+                        "EmbeddedData": [
+                           {
+                              "Description": "Experience",
+                              "Type": "Custom",
+                              "Field": "Experience",
+                              "VariableType": "String",
+                              "DataVisibility": [],
+                              "AnalyzeText": false,
+                              "Value": "A"
+                           }
+                        ]
+                     },
+                     {
+                        "Type": "EmbeddedData",
+                        "FlowID": "FL_8",
+                        "EmbeddedData": [
+                           {
+                              "Description": "Experience",
+                              "Type": "Custom",
+                              "Field": "Experience",
+                              "VariableType": "String",
+                              "DataVisibility": [],
+                              "AnalyzeText": false,
+                              "Value": "B"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "Type": "Branch",
+                  "FlowID": "FL_9",
+                  "Description": "New Branch",
+                  "BranchLogic": {
+                     "0": {
+                        "0": {
+                           "LogicType": "EmbeddedField",
+                           "LeftOperand": "Experience",
+                           "Operator": "EqualTo",
+                           "RightOperand": "A",
+                           "_HiddenExpression": false,
+                           "Type": "Expression",
+                           "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">Experience</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> A </span>"
+                        },
+                        "Type": "If"
+                     },
+                     "Type": "BooleanExpression"
+                  },
+                  "Flow": [
+                     {
+                        "Type": "Standard",
+                        "ID": "BL_2fNssrIcKqvQUIu",
+                        "FlowID": "FL_3",
+                        "Autofill": []
+                     }
+                  ]
+               },
+               {
+                  "Type": "Branch",
+                  "FlowID": "FL_10",
+                  "Description": "New Branch",
+                  "BranchLogic": {
+                     "0": {
+                        "0": {
+                           "LogicType": "EmbeddedField",
+                           "LeftOperand": "Experience",
+                           "Operator": "EqualTo",
+                           "RightOperand": "B",
+                           "_HiddenExpression": false,
+                           "Type": "Expression",
+                           "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">Experience</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> B </span>"
+                        },
+                        "Type": "If"
+                     },
+                     "Type": "BooleanExpression"
+                  },
+                  "Flow": [
+                     {
+                        "Type": "Standard",
+                        "ID": "BL_b8SyMtsbcUPdYB8",
+                        "FlowID": "FL_4",
+                        "Autofill": []
+                     }
+                  ]
+               },
+               {
+                  "Type": "Standard",
+                  "ID": "BL_6sUmwvWgrChHDwy",
+                  "FlowID": "FL_5",
+                  "Autofill": []
+               },
+               {
+                  "Type": "EndSurvey",
+                  "FlowID": "FL_11"
+               }
+            ],
+            "Properties": {
+               "Count": 11,
+               "RemovedFieldsets": []
+            }
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "PL",
+         "PrimaryAttribute": "Preview Link",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "PreviewType": "Brand",
+            "PreviewID": "c41a8622-7004-47c0-8082-935a1c8e6676"
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "SO",
+         "PrimaryAttribute": "Survey Options",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "BackButton": "false",
+            "SaveAndContinue": "false",
+            "SurveyProtection": "PublicSurvey",
+            "BallotBoxStuffingPrevention": "false",
+            "NoIndex": "Yes",
+            "SecureResponseFiles": "true",
+            "SurveyExpiration": "None",
+            "SurveyTermination": "DefaultMessage",
+            "Header": "",
+            "Footer": "",
+            "ProgressBarDisplay": "NoText",
+            "PartialData": "No",
+            "ValidationMessage": null,
+            "PreviousButton": " ← ",
+            "NextButton": " → ",
+            "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+            "SkinLibrary": "qdemo",
+            "SkinType": "templated",
+            "Skin": {
+               "brandingId": "6390112371",
+               "templateId": "*2014",
+               "overrides": null
+            },
+            "NewScoring": 1,
+            "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today.",
+            "EOSMessage": null,
+            "ShowExportTags": "false",
+            "CollectGeoLocation": "false",
+            "PasswordProtection": "No",
+            "AnonymizeResponse": "Yes",
+            "RefererCheck": "No",
+            "BallotBoxStuffingPreventionBehavior": null,
+            "BallotBoxStuffingPreventionMessage": null,
+            "BallotBoxStuffingPreventionMessageLibrary": null,
+            "BallotBoxStuffingPreventionURL": null,
+            "RecaptchaV3": "false",
+            "ConfirmStart": false,
+            "AutoConfirmStart": false,
+            "RelevantID": "false",
+            "RelevantIDLockoutPeriod": "+30 days",
+            "UseCustomSurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessageLibrary": null,
+            "ResponseSummary": "No",
+            "EOSMessageLibrary": null,
+            "EOSRedirectURL": null,
+            "EmailThankYou": "false",
+            "ThankYouEmailMessageLibrary": null,
+            "ThankYouEmailMessage": null,
+            "ValidateMessage": "false",
+            "ValidationMessageLibrary": null,
+            "InactiveSurvey": "DefaultMessage",
+            "PartialDeletion": "+1 hour",
+            "PartialDataCloseAfter": "LastActivity",
+            "InactiveMessageLibrary": null,
+            "InactiveMessage": null,
+            "AvailableLanguages": {
+               "PT-BR": [],
+               "EN": []
+            },
+            "CustomLanguages": [],
+            "SkinQuestionWidth": 700,
+            "SurveyCreationDate": "2022-12-01 15:09:05",
+            "CustomStyles": [],
+            "MetaDataTranslations": {
+               "EN": {
+                  "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management ",
+                  "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today. "
+               }
+            }
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "SCO",
+         "PrimaryAttribute": "Scoring",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "ScoringCategories": [],
+            "ScoringCategoryGroups": [],
+            "ScoringSummaryCategory": null,
+            "ScoringSummaryAfterQuestions": 0,
+            "ScoringSummaryAfterSurvey": 0,
+            "DefaultScoringCategory": null,
+            "AutoScoringCategory": null
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "PROJ",
+         "PrimaryAttribute": "CORE",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": "1.1.0",
+         "Payload": {
+            "ProjectCategory": "CORE",
+            "SchemaVersion": "1.1.0"
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "STAT",
+         "PrimaryAttribute": "Survey Statistics",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "MobileCompatible": true,
+            "ID": "Survey Statistics"
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "QC",
+         "PrimaryAttribute": "Survey Question Count",
+         "SecondaryAttribute": "10",
+         "TertiaryAttribute": null,
+         "Payload": null
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "RS",
+         "PrimaryAttribute": "RS_eQF3BFYBA6KfEPk",
+         "SecondaryAttribute": "Default Response Set",
+         "TertiaryAttribute": null,
+         "Payload": null
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID1",
+         "SecondaryAttribute": "Introdução Você será apresentado(a) a algumas perguntas sobre o nosso produto. Pedimos que indiq",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "<b>Introdução</b><br><br>Você será apresentado(a) a algumas perguntas sobre o nosso produto. Pedimos que indique a <b>sua&nbsp;opinião</b> em cada uma delas.<br><br>Quando estiver pronto(a), clique na seta abaixo.<br>",
+            "DefaultChoices": false,
+            "DataExportTag": "Q1",
+            "QuestionID": "QID1",
+            "QuestionType": "DB",
+            "Selector": "TB",
+            "DataVisibility": {
+               "Private": false,
+               "Hidden": false
+            },
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText"
+            },
+            "QuestionDescription": "Introdução Você será apresentado(a) a algumas perguntas sobre o nosso produto. Pedimos que indiqu...",
+            "ChoiceOrder": [],
+            "Validation": {
+               "Settings": {
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "<b>Intro</b><br />\n<br />\nWe're going to ask you some questions on our product. Please tell us <strong>your opinion</strong> for each one.<br />\n<br />\nWhen you're ready, please click \"Next\"."
+               }
+            },
+            "NextChoiceId": 4,
+            "NextAnswerId": 1,
+            "QuestionText_Unsafe": "<b>Introdução</b><br><br>Você será apresentado(a) a algumas perguntas sobre o nosso novo produto. Pedimos que indique o que <b>você</b>&nbsp;prefere em cada um deles.<br><br>Quando estiver pronto(a), clique na seta abaixo.<br>"
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID2",
+         "SecondaryAttribute": "O que você mais gosta e menos gosta no nosso aplicativo atual?",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "O que você <b>mais gosta</b> e <b>menos gosta</b> no nosso aplicativo atual?",
+            "DefaultChoices": false,
+            "DataExportTag": "Q2",
+            "QuestionType": "Matrix",
+            "Selector": "MaxDiff",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText",
+               "TextPosition": "inline",
+               "ChoiceColumnWidth": 25,
+               "RepeatHeaders": "none",
+               "WhiteSpace": "OFF",
+               "MobileFirst": true
+            },
+            "QuestionDescription": "O que você mais gosta e menos gosta no nosso aplicativo atual?",
+            "Choices": {
+               "1": {
+                  "Display": "Usabilidade",
+                  "ExclusiveAnswer": true
+               },
+               "2": {
+                  "Display": "Performance",
+                  "ExclusiveAnswer": true
+               },
+               "3": {
+                  "Display": "Design",
+                  "ExclusiveAnswer": true
+               },
+               "4": {
+                  "Display": "Preço",
+                  "ExclusiveAnswer": true
+               }
+            },
+            "ChoiceOrder": [
+               1,
+               2,
+               3,
+               4
+            ],
+            "Validation": {
+               "Settings": {
+                  "ForceResponse": "OFF",
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "What you <strong>like</strong> and <strong>dislike</strong> on our current mobile app?",
+                  "Choices": {
+                     "1": {
+                        "Display": "Usability"
+                     },
+                     "2": {
+                        "Display": "Performance"
+                     },
+                     "3": {
+                        "Display": "Design"
+                     },
+                     "4": {
+                        "Display": "Price"
+                     }
+                  },
+                  "Answers": {
+                     "1": {
+                        "Display": "I <strong>like</strong> it"
+                     },
+                     "2": {
+                        "Display": "I <strong>dislike</strong> it"
+                     }
+                  }
+               }
+            },
+            "NextChoiceId": 5,
+            "NextAnswerId": 3,
+            "Answers": {
+               "1": {
+                  "Display": "Mais gosto",
+                  "ExclusiveAnswer": true
+               },
+               "2": {
+                  "Display": "Menos gosto",
+                  "ExclusiveAnswer": true
+               }
+            },
+            "AnswerOrder": [
+               1,
+               2
+            ],
+            "ChoiceDataExportTags": false,
+            "QuestionID": "QID2",
+            "QuestionText_Unsafe": "O que você <b>mais gosta</b> e <b>menos gosta</b> no nosso aplicativo atual?"
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID4",
+         "SecondaryAttribute": "O que você mais gosta no nosso aplicativo atual?",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "O que você <b>mais gosta</b>&nbsp;no nosso aplicativo atual?",
+            "DefaultChoices": false,
+            "DataExportTag": "Q4",
+            "QuestionType": "MC",
+            "Selector": "SAHR",
+            "SubSelector": "TX",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText",
+               "LabelPosition": "BELOW"
+            },
+            "QuestionDescription": "O que você mais gosta no nosso aplicativo atual?",
+            "Choices": {
+               "1": {
+                  "Display": "Usabilidade"
+               },
+               "2": {
+                  "Display": "Performance"
+               },
+               "3": {
+                  "Display": "Design"
+               },
+               "4": {
+                  "Display": "Preço"
+               }
+            },
+            "ChoiceOrder": [
+               1,
+               2,
+               3,
+               4
+            ],
+            "Validation": {
+               "Settings": {
+                  "ForceResponse": "OFF",
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "What you like <strong>the most</strong> on our current mobile app?",
+                  "Choices": {
+                     "1": {
+                        "Display": "Usability"
+                     },
+                     "2": {
+                        "Display": "Performance"
+                     },
+                     "3": {
+                        "Display": "Design"
+                     },
+                     "4": {
+                        "Display": "Price"
+                     }
+                  }
+               }
+            },
+            "NextChoiceId": 5,
+            "NextAnswerId": 1,
+            "QuestionID": "QID4",
+            "QuestionText_Unsafe": "O que você <b>mais gosta</b>&nbsp;no nosso aplicativo atual?"
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID6",
+         "SecondaryAttribute": "O que você menos gosta no nosso aplicativo atual?",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "O que você <b>menos gosta </b>no nosso aplicativo atual?",
+            "DefaultChoices": false,
+            "DataExportTag": "Q5",
+            "QuestionType": "MC",
+            "Selector": "SAHR",
+            "SubSelector": "TX",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText",
+               "LabelPosition": "BELOW"
+            },
+            "QuestionDescription": "O que você menos gosta no nosso aplicativo atual?",
+            "Choices": [],
+            "ChoiceOrder": [],
+            "Validation": {
+               "Settings": {
+                  "ForceResponse": "OFF",
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "What you <strong>dislike</strong> on our current mobile app?"
+               }
+            },
+            "NextChoiceId": 1,
+            "NextAnswerId": 1,
+            "QuestionID": "QID6",
+            "DynamicChoices": {
+               "DynamicType": "ChoiceGroup",
+               "Locator": "q://QID4/ChoiceGroup/UnselectedChoices",
+               "Type": "Dynamic"
+            },
+            "DynamicChoicesData": [],
+            "QuestionText_Unsafe": "O que você <b>menos</b> gosta no nosso aplicativo atual?",
+            "DataVisibility": {
+               "Private": false,
+               "Hidden": false
+            }
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID3",
+         "SecondaryAttribute": "Qual das seguintes funcionalidades você mais gostaria de ter no nosso app?",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "Qual das seguintes funcionalidades você <b>mais gostaria</b> de ter no nosso app?",
+            "DefaultChoices": false,
+            "DataExportTag": "Q3",
+            "QuestionType": "MC",
+            "Selector": "SAVR",
+            "SubSelector": "TX",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText"
+            },
+            "QuestionDescription": "Qual das seguintes funcionalidades você mais gostaria de ter no nosso app?",
+            "Choices": {
+               "1": {
+                  "Display": "Login com Google"
+               },
+               "2": {
+                  "Display": "Chatbot"
+               },
+               "3": {
+                  "Display": "Live chat"
+               },
+               "4": {
+                  "Display": "Modo escuro"
+               },
+               "5": {
+                  "Display": "Outras",
+                  "TextEntry": "true"
+               }
+            },
+            "ChoiceOrder": [
+               1,
+               2,
+               3,
+               4,
+               5
+            ],
+            "Validation": {
+               "Settings": {
+                  "ForceResponse": "OFF",
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "Which of the following new features <strong>you</strong> would like to use in our app?",
+                  "Choices": {
+                     "1": {
+                        "Display": "Google SSO"
+                     },
+                     "2": {
+                        "Display": "Chatbot"
+                     },
+                     "3": {
+                        "Display": "Live chat"
+                     },
+                     "4": {
+                        "Display": "Dark mode"
+                     },
+                     "5": {
+                        "Display": "Others"
+                     }
+                  }
+               }
+            },
+            "NextChoiceId": 6,
+            "NextAnswerId": 1,
+            "QuestionID": "QID3",
+            "QuestionText_Unsafe": "Qual das seguintes funcionalidades você <b>mais gostaria</b> de ter no nosso app?"
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID7",
+         "SecondaryAttribute": "Qual funcionalidade você mais gostaria de ter no nosso app?",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "Qual funcionalidade você <b>mais gostaria</b>&nbsp;de ter no nosso app?",
+            "DefaultChoices": false,
+            "DataExportTag": "Q6",
+            "QuestionType": "TE",
+            "Selector": "SL",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText",
+               "InputWidth": 497,
+               "InputHeight": 29
+            },
+            "QuestionDescription": "Qual funcionalidade você mais gostaria de ter no nosso app?",
+            "Validation": {
+               "Settings": {
+                  "ForceResponse": "OFF",
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "Which new feature <strong>you</strong> would like to use in our app?"
+               }
+            },
+            "NextChoiceId": 4,
+            "NextAnswerId": 1,
+            "SearchSource": {
+               "AllowFreeResponse": "false"
+            },
+            "QuestionID": "QID7",
+            "QuestionText_Unsafe": "Qual funcionalidade você <b>mais gostaria</b>&nbsp;de ter no nosso app?"
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID9",
+         "SecondaryAttribute": "Quão satisfeito(a) você ficou com essa pesquisa?",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "Quão satisfeito(a) você ficou com essa pesquisa?",
+            "DefaultChoices": false,
+            "DataExportTag": "Q7",
+            "QuestionType": "MC",
+            "Selector": "SAHR",
+            "SubSelector": "TX",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText",
+               "LabelPosition": "BELOW"
+            },
+            "QuestionDescription": "Quão satisfeito(a) você ficou com essa pesquisa?",
+            "Choices": {
+               "1": {
+                  "Display": "Extremamente insatisfeito(a)"
+               },
+               "2": {
+                  "Display": "Parcialmente insatisfeito(a)"
+               },
+               "3": {
+                  "Display": "Nem satisfeito(a), nem insatisfeito(a)"
+               },
+               "4": {
+                  "Display": "Parcialmente satisfeito(a)"
+               },
+               "5": {
+                  "Display": "Extremamente satisfeito(a)"
+               }
+            },
+            "ChoiceOrder": [
+               1,
+               2,
+               3,
+               4,
+               5
+            ],
+            "Validation": {
+               "Settings": {
+                  "ForceResponse": "OFF",
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "How satisfied were you with this survey?",
+                  "Choices": {
+                     "1": {
+                        "Display": "Extremely dissatisfied"
+                     },
+                     "2": {
+                        "Display": "Somewhat dissatisfied"
+                     },
+                     "3": {
+                        "Display": "Neither satisfied nor dissatisfied"
+                     },
+                     "4": {
+                        "Display": "Somewhat satisfied"
+                     },
+                     "5": {
+                        "Display": "Extremely satisfied"
+                     }
+                  }
+               }
+            },
+            "NextChoiceId": 6,
+            "NextAnswerId": 1,
+            "QuestionID": "QID9",
+            "QuestionText_Unsafe": "Quão satisfeito(a) você ficou com essa pesquisa?",
+            "DataVisibility": {
+               "Private": false,
+               "Hidden": false
+            }
+         }
+      }
+   ]
+}
