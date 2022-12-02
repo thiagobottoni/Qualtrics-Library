@@ -13,7 +13,7 @@
       "SurveyExpirationDate": "0000-00-00 00:00:00",
       "SurveyCreationDate": "2022-12-01 15:09:05",
       "CreatorID": "UR_cuppQqWTlam3hZQ",
-      "LastModified": "2022-12-01 16:16:25",
+      "LastModified": "2022-12-01 18:14:28",
       "LastAccessed": "0000-00-00 00:00:00",
       "LastActivated": "2022-12-01 16:16:25",
       "Deleted": null
@@ -51,6 +51,10 @@
                "BlockElements": [
                   {
                      "Type": "Question",
+                     "QuestionID": "QID11"
+                  },
+                  {
+                     "Type": "Question",
                      "QuestionID": "QID2"
                   },
                   {
@@ -68,6 +72,10 @@
                "Description": "Experience B",
                "ID": "BL_b8SyMtsbcUPdYB8",
                "BlockElements": [
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID12"
+                  },
                   {
                      "Type": "Question",
                      "QuestionID": "QID4"
@@ -361,7 +369,7 @@
          "SurveyID": "SV_9S7X8i8UxfIQvtQ",
          "Element": "QC",
          "PrimaryAttribute": "Survey Question Count",
-         "SecondaryAttribute": "10",
+         "SecondaryAttribute": "12",
          "TertiaryAttribute": null,
          "Payload": null
       },
@@ -372,6 +380,74 @@
          "SecondaryAttribute": "Default Response Set",
          "TertiaryAttribute": null,
          "Payload": null
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID11",
+         "SecondaryAttribute": "EXPERIÊNCIA A",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "<div style=\"text-align: center;\"><span style=\"font-size:19px;\"><span style=\"color:#27ae60;\"><strong>EXPERI&Ecirc;NCIA A</strong></span></span></div>",
+            "DefaultChoices": false,
+            "DataExportTag": "Q2",
+            "QuestionID": "QID11",
+            "QuestionType": "DB",
+            "Selector": "TB",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText"
+            },
+            "QuestionDescription": "EXPERIÊNCIA A",
+            "ChoiceOrder": [],
+            "Validation": {
+               "Settings": {
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "<div style=\"text-align: center;\"><span style=\"font-size:19px;\"><span style=\"color:#27ae60;\"><strong>EXPERIENCE A</strong></span></span></div>\n"
+               }
+            },
+            "NextChoiceId": 4,
+            "NextAnswerId": 1,
+            "QuestionText_Unsafe": "<div style=\"text-align: center;\"><span style=\"font-size:19px;\"><span style=\"color:#27ae60;\"><strong>EXPERI&Ecirc;NCIA A</strong></span></span></div>"
+         }
+      },
+      {
+         "SurveyID": "SV_9S7X8i8UxfIQvtQ",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID12",
+         "SecondaryAttribute": "EXPERIÊNCIA B",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "<div style=\"text-align: center;\"><span style=\"font-size:19px;\"><span style=\"color:#c0392b;\"><strong>EXPERI&Ecirc;NCIA B</strong></span></span></div>",
+            "DefaultChoices": false,
+            "DataExportTag": "Q5",
+            "QuestionID": "QID12",
+            "QuestionType": "DB",
+            "Selector": "TB",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText"
+            },
+            "QuestionDescription": "EXPERIÊNCIA B",
+            "ChoiceOrder": [],
+            "Validation": {
+               "Settings": {
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "EN": {
+                  "QuestionText": "<div style=\"text-align: center;\"><span style=\"font-size:19px;\"><span style=\"color:#c0392b;\"><strong>EXPERIENCE B</strong></span></span></div>\n"
+               }
+            },
+            "NextChoiceId": 4,
+            "NextAnswerId": 1,
+            "QuestionText_Unsafe": "<div style=\"text-align: center;\"><span style=\"font-size:19px;\"><span style=\"color:#c0392b;\"><strong>EXPERI&Ecirc;NCIA B</strong></span></span></div>"
+         }
       },
       {
          "SurveyID": "SV_9S7X8i8UxfIQvtQ",
@@ -408,7 +484,7 @@
             },
             "NextChoiceId": 4,
             "NextAnswerId": 1,
-            "QuestionText_Unsafe": "<b>Introdução</b><br><br>Você será apresentado(a) a algumas perguntas sobre o nosso novo produto. Pedimos que indique o que <b>você</b>&nbsp;prefere em cada um deles.<br><br>Quando estiver pronto(a), clique na seta abaixo.<br>"
+            "QuestionText_Unsafe": "<b>Introdução</b><br><br>Você será apresentado(a) a algumas perguntas sobre o nosso produto. Pedimos que indique a <b>sua&nbsp;opinião</b> em cada uma delas.<br><br>Quando estiver pronto(a), clique na seta abaixo.<br>"
          }
       },
       {
@@ -420,7 +496,7 @@
          "Payload": {
             "QuestionText": "O que você <b>mais gosta</b> e <b>menos gosta</b> no nosso aplicativo atual?",
             "DefaultChoices": false,
-            "DataExportTag": "Q2",
+            "DataExportTag": "Q3",
             "QuestionType": "Matrix",
             "Selector": "MaxDiff",
             "Configuration": {
@@ -520,7 +596,7 @@
          "Payload": {
             "QuestionText": "O que você <b>mais gosta</b>&nbsp;no nosso aplicativo atual?",
             "DefaultChoices": false,
-            "DataExportTag": "Q4",
+            "DataExportTag": "Q6",
             "QuestionType": "MC",
             "Selector": "SAHR",
             "SubSelector": "TX",
@@ -590,7 +666,7 @@
          "Payload": {
             "QuestionText": "O que você <b>menos gosta </b>no nosso aplicativo atual?",
             "DefaultChoices": false,
-            "DataExportTag": "Q5",
+            "DataExportTag": "Q7",
             "QuestionType": "MC",
             "Selector": "SAHR",
             "SubSelector": "TX",
@@ -622,7 +698,7 @@
                "Type": "Dynamic"
             },
             "DynamicChoicesData": [],
-            "QuestionText_Unsafe": "O que você <b>menos</b> gosta no nosso aplicativo atual?",
+            "QuestionText_Unsafe": "O que você <b>menos gosta </b>no nosso aplicativo atual?",
             "DataVisibility": {
                "Private": false,
                "Hidden": false
@@ -638,7 +714,7 @@
          "Payload": {
             "QuestionText": "Qual das seguintes funcionalidades você <b>mais gostaria</b> de ter no nosso app?",
             "DefaultChoices": false,
-            "DataExportTag": "Q3",
+            "DataExportTag": "Q4",
             "QuestionType": "MC",
             "Selector": "SAVR",
             "SubSelector": "TX",
@@ -715,7 +791,7 @@
          "Payload": {
             "QuestionText": "Qual funcionalidade você <b>mais gostaria</b>&nbsp;de ter no nosso app?",
             "DefaultChoices": false,
-            "DataExportTag": "Q6",
+            "DataExportTag": "Q8",
             "QuestionType": "TE",
             "Selector": "SL",
             "Configuration": {
@@ -754,7 +830,7 @@
          "Payload": {
             "QuestionText": "Quão satisfeito(a) você ficou com essa pesquisa?",
             "DefaultChoices": false,
-            "DataExportTag": "Q7",
+            "DataExportTag": "Q9",
             "QuestionType": "MC",
             "Selector": "SAHR",
             "SubSelector": "TX",
