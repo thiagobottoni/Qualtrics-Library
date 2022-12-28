@@ -1,0 +1,372 @@
+{
+   "SurveyEntry": {
+      "SurveyID": "SV_9vn6HVQObNX1b38",
+      "SurveyName": "Setting Survey Language Using URL Parameters",
+      "SurveyDescription": null,
+      "SurveyOwnerID": "UR_cuppQqWTlam3hZQ",
+      "SurveyBrandID": "qdemo",
+      "DivisionID": "DV_51IeqeCbv2poD6l",
+      "SurveyLanguage": "EN",
+      "SurveyActiveResponseSet": "RS_87D2Q0F4d1uaGoe",
+      "SurveyStatus": "Active",
+      "SurveyStartDate": "0000-00-00 00:00:00",
+      "SurveyExpirationDate": "0000-00-00 00:00:00",
+      "SurveyCreationDate": "2022-12-28 12:51:46",
+      "CreatorID": "UR_cuppQqWTlam3hZQ",
+      "LastModified": "2022-12-28 13:14:49",
+      "LastAccessed": "0000-00-00 00:00:00",
+      "LastActivated": "2022-12-28 13:10:53",
+      "Deleted": null
+   },
+   "SurveyElements": [
+      {
+         "SurveyID": "SV_9vn6HVQObNX1b38",
+         "Element": "BL",
+         "PrimaryAttribute": "Survey Blocks",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": [
+            {
+               "Type": "Default",
+               "Description": "Default Question Block",
+               "ID": "BL_bxyxLVaRFKpTcKa",
+               "BlockElements": [
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID1"
+                  },
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID2"
+                  }
+               ]
+            },
+            {
+               "Type": "Trash",
+               "Description": "Trash / Unused Questions",
+               "ID": "BL_3Oxw2GzYLPrjdHw"
+            }
+         ]
+      },
+      {
+         "SurveyID": "SV_9vn6HVQObNX1b38",
+         "Element": "FL",
+         "PrimaryAttribute": "Survey Flow",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "Flow": [
+               {
+                  "ID": "BL_bxyxLVaRFKpTcKa",
+                  "Type": "Block",
+                  "FlowID": "FL_2"
+               }
+            ],
+            "Properties": {
+               "Count": 2
+            },
+            "FlowID": "FL_1",
+            "Type": "Root"
+         }
+      },
+      {
+         "SurveyID": "SV_9vn6HVQObNX1b38",
+         "Element": "PL",
+         "PrimaryAttribute": "Preview Link",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "PreviewType": "Brand",
+            "PreviewID": "87612e5d-5910-439f-ab25-b9bb9bd2169f"
+         }
+      },
+      {
+         "SurveyID": "SV_9vn6HVQObNX1b38",
+         "Element": "SO",
+         "PrimaryAttribute": "Survey Options",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "BackButton": "false",
+            "SaveAndContinue": "false",
+            "SurveyProtection": "PublicSurvey",
+            "BallotBoxStuffingPrevention": "false",
+            "NoIndex": "Yes",
+            "SecureResponseFiles": "true",
+            "SurveyExpiration": "None",
+            "SurveyTermination": "DefaultMessage",
+            "Header": "",
+            "Footer": "",
+            "ProgressBarDisplay": "NoText",
+            "PartialData": "No",
+            "ValidationMessage": null,
+            "PreviousButton": " ← ",
+            "NextButton": " → ",
+            "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+            "SkinLibrary": "qdemo",
+            "SkinType": "templated",
+            "Skin": {
+               "brandingId": "6390112371",
+               "templateId": "*2014",
+               "overrides": null
+            },
+            "NewScoring": 1,
+            "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today.",
+            "CustomStyles": [],
+            "AvailableLanguages": {
+               "EN": [],
+               "PT-BR": [],
+               "ES": []
+            },
+            "CustomLanguages": [],
+            "SurveyCreationDate": "2022-12-28 12:51:46",
+            "MetaDataTranslations": {
+               "PT-BR": {
+                  "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+                  "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today."
+               },
+               "ES": {
+                  "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+                  "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today."
+               }
+            },
+            "EOSMessage": null,
+            "ShowExportTags": "false",
+            "CollectGeoLocation": "false",
+            "PasswordProtection": "No",
+            "AnonymizeResponse": "Yes",
+            "RefererCheck": "No",
+            "BallotBoxStuffingPreventionBehavior": null,
+            "BallotBoxStuffingPreventionMessage": null,
+            "BallotBoxStuffingPreventionMessageLibrary": null,
+            "BallotBoxStuffingPreventionURL": null,
+            "RecaptchaV3": "false",
+            "ConfirmStart": false,
+            "AutoConfirmStart": false,
+            "RelevantID": "false",
+            "RelevantIDLockoutPeriod": "+30 days",
+            "UseCustomSurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessageLibrary": null,
+            "ResponseSummary": "No",
+            "EOSMessageLibrary": null,
+            "EOSRedirectURL": null,
+            "EmailThankYou": "false",
+            "ThankYouEmailMessageLibrary": null,
+            "ThankYouEmailMessage": null,
+            "ValidateMessage": "false",
+            "ValidationMessageLibrary": null,
+            "InactiveSurvey": "DefaultMessage",
+            "PartialDeletion": "+1 hour",
+            "PartialDataCloseAfter": "LastActivity",
+            "InactiveMessageLibrary": null,
+            "InactiveMessage": null,
+            "SurveyAnalysisDisabled": true
+         }
+      },
+      {
+         "SurveyID": "SV_9vn6HVQObNX1b38",
+         "Element": "SCO",
+         "PrimaryAttribute": "Scoring",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "ScoringCategories": [],
+            "ScoringCategoryGroups": [],
+            "ScoringSummaryCategory": null,
+            "ScoringSummaryAfterQuestions": 0,
+            "ScoringSummaryAfterSurvey": 0,
+            "DefaultScoringCategory": null,
+            "AutoScoringCategory": null
+         }
+      },
+      {
+         "SurveyID": "SV_9vn6HVQObNX1b38",
+         "Element": "PROJ",
+         "PrimaryAttribute": "CORE",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": "1.1.0",
+         "Payload": {
+            "ProjectCategory": "CORE",
+            "SchemaVersion": "1.1.0"
+         }
+      },
+      {
+         "SurveyID": "SV_9vn6HVQObNX1b38",
+         "Element": "STAT",
+         "PrimaryAttribute": "Survey Statistics",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "MobileCompatible": true,
+            "ID": "Survey Statistics"
+         }
+      },
+      {
+         "SurveyID": "SV_9vn6HVQObNX1b38",
+         "Element": "QC",
+         "PrimaryAttribute": "Survey Question Count",
+         "SecondaryAttribute": "2",
+         "TertiaryAttribute": null,
+         "Payload": null
+      },
+      {
+         "SurveyID": "SV_9vn6HVQObNX1b38",
+         "Element": "RS",
+         "PrimaryAttribute": "RS_87D2Q0F4d1uaGoe",
+         "SecondaryAttribute": "Default Response Set",
+         "TertiaryAttribute": null,
+         "Payload": null
+      },
+      {
+         "SurveyID": "SV_9vn6HVQObNX1b38",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID2",
+         "SecondaryAttribute": "How likely are you to recommend our company to a friend or colleague?",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "How likely are you to recommend our company to a friend or colleague?",
+            "DefaultChoices": false,
+            "DataExportTag": "Q2",
+            "QuestionType": "MC",
+            "Selector": "NPS",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText"
+            },
+            "QuestionDescription": "How likely are you to recommend our company to a friend or colleague?",
+            "Choices": [
+               {
+                  "Display": "0"
+               },
+               {
+                  "Display": "1"
+               },
+               {
+                  "Display": "2"
+               },
+               {
+                  "Display": "3"
+               },
+               {
+                  "Display": "4"
+               },
+               {
+                  "Display": "5"
+               },
+               {
+                  "Display": "6"
+               },
+               {
+                  "Display": "7"
+               },
+               {
+                  "Display": "8"
+               },
+               {
+                  "Display": "9"
+               },
+               {
+                  "Display": "10"
+               }
+            ],
+            "ChoiceOrder": [
+               "0",
+               "1",
+               "2",
+               "3",
+               "4",
+               "5",
+               "6",
+               "7",
+               "8",
+               "9",
+               "10"
+            ],
+            "Validation": {
+               "Settings": {
+                  "ForceResponse": "OFF",
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "PT-BR": {
+                  "QuestionText": "Em uma escala de 0 a 10, o quanto você indicaria a nossa empresa para um amigo ou colega?",
+                  "ColumnLabels": [
+                     {
+                        "Display": "Pouco provável"
+                     },
+                     {
+                        "Display": "Muito provável"
+                     }
+                  ]
+               },
+               "ES": {
+                  "QuestionText": "¿Qué tan probable es que recomiende nuestra empresa a un amigo o colega?",
+                  "ColumnLabels": [
+                     {
+                        "Display": "Nada probable"
+                     },
+                     {
+                        "Display": "Muy probable"
+                     }
+                  ]
+               }
+            },
+            "NextChoiceId": 11,
+            "NextAnswerId": 1,
+            "ColumnLabels": [
+               {
+                  "Display": "Not at all likely",
+                  "IsLabelDefault": true
+               },
+               {
+                  "Display": "Extremely likely",
+                  "IsLabelDefault": true
+               }
+            ],
+            "QuestionID": "QID2"
+         }
+      },
+      {
+         "SurveyID": "SV_9vn6HVQObNX1b38",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID1",
+         "SecondaryAttribute": "This survey is available in three languages: English, Portuguese and Spanish. The language you're...",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "This survey is available in three languages: English, Portuguese and Spanish.<br><br>The language you're seeing this survey has been set by your browser.<br><br>Try adding one of the next strings to the end of this survey URL to make Qualtrics ignore your browser configuration and show the survey in the language you want:<br><br><b>?Q_lang=PT-BR</b> for Brazilian Portuguese<br><b>?Q_lang=ES</b> for Spanish<br><br>For example:<br><i>https://brand.ca1.qualtrics.com/jfe/form/SV_9vn6HZu20X1<b>?Q_lang=PT-BR</b></i><br>",
+            "DefaultChoices": false,
+            "DataExportTag": "Q1",
+            "QuestionID": "QID1",
+            "QuestionType": "DB",
+            "Selector": "TB",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText"
+            },
+            "QuestionDescription": "This survey is available in three languages: English, Portuguese and Spanish. The language you're...",
+            "ChoiceOrder": [],
+            "Validation": {
+               "Settings": {
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "ES": {
+                  "QuestionText": "Esta encuesta está disponible en tres idiomas: inglés, portugués y español.<br />\n<br />\nEl navegador ha establecido el idioma en el que está viendo esta encuesta.<br />\n<br />\nIntente agregar una de las siguientes cadenas al final de la URL de esta encuesta para que Qualtrics ignore la configuración de su navegador y muestre la encuesta en el idioma que desee:<br />\n<br />\n<b>?Q_lang=PT-BR</b> para portugués brasileño<br />\n<b>?Q_lang=EN</b> para inglés<br />\n<br />\nPor ejemplo:<br />\n<i>https://brand.ca1.qualtrics.com/jfe/form/SV_9vn6HZu20X1<b>?Q_lang=EN</b></i>"
+               },
+               "PT-BR": {
+                  "QuestionText": "Essa pesquisa está disponível em três idiomas: Inglês, Português e Espanhol.<br />\n<br />\nO idioma que você está vendo essa pesquisa foi configurado pelo seu navegador.<br />\n<br />\nTente adicionar um dos seguintes parâmetros ao final da URL dessa pesquisa para fazer a Qualtrics ignorar a configuração do seu navegador e exibir a pesquisa no idioma que você quer:<br />\n<br />\n<b>?Q_lang=EN</b> para Inglês<br />\n<b>?Q_lang=ES</b> para Espanhol<br />\n<br />\nPor exemplo:<br />\n<i>https://brand.ca1.qualtrics.com/jfe/form/SV_9vn6HZu20X1<b>?Q_lang=ES</b></i>"
+               }
+            },
+            "NextChoiceId": 4,
+            "NextAnswerId": 1,
+            "DataVisibility": {
+               "Private": false,
+               "Hidden": false
+            }
+         }
+      }
+   ]
+}
