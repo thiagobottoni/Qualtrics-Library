@@ -9,6 +9,7 @@ This repository contains custom survey templates that addresses common business 
 - **custom-choices-background:** It applies custom styles for NPS and CSAT questions using CSS
 - **math-operations-sf:** Examples of how to do math operations in the survey flow
 - **nps-10-point-scale:** It implements the NPS question on a 10 point scale (from 1 to 10), instead of the traditional 11 point scale (from 0 to 10), using javascript
+- **survey-language-url:** Example of how to set the survey language using URL parameters
 
 
 ## How to implement
