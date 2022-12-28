@@ -1,0 +1,343 @@
+{
+   "SurveyEntry": {
+      "SurveyID": "SV_8eQsZYTNyGhZEUu",
+      "SurveyName": "Hide Language Selector After First Page",
+      "SurveyDescription": null,
+      "SurveyOwnerID": "UR_cuppQqWTlam3hZQ",
+      "SurveyBrandID": "qdemo",
+      "DivisionID": "DV_51IeqeCbv2poD6l",
+      "SurveyLanguage": "EN",
+      "SurveyActiveResponseSet": "RS_6Dwu1fdGeKalzF4",
+      "SurveyStatus": "Active",
+      "SurveyStartDate": "0000-00-00 00:00:00",
+      "SurveyExpirationDate": "0000-00-00 00:00:00",
+      "SurveyCreationDate": "2022-12-28 14:40:32",
+      "CreatorID": "UR_cuppQqWTlam3hZQ",
+      "LastModified": "2022-12-28 14:50:28",
+      "LastAccessed": "0000-00-00 00:00:00",
+      "LastActivated": "2022-12-28 14:50:28",
+      "Deleted": null
+   },
+   "SurveyElements": [
+      {
+         "SurveyID": "SV_8eQsZYTNyGhZEUu",
+         "Element": "BL",
+         "PrimaryAttribute": "Survey Blocks",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": [
+            {
+               "Type": "Default",
+               "Description": "Default Question Block",
+               "ID": "BL_1FdRVGDTz562VP8",
+               "BlockElements": [
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID1"
+                  },
+                  {
+                     "Type": "Page Break"
+                  },
+                  {
+                     "Type": "Question",
+                     "QuestionID": "QID2"
+                  }
+               ]
+            },
+            {
+               "Type": "Trash",
+               "Description": "Trash / Unused Questions",
+               "ID": "BL_20nzVQff1YdlfU2"
+            }
+         ]
+      },
+      {
+         "SurveyID": "SV_8eQsZYTNyGhZEUu",
+         "Element": "FL",
+         "PrimaryAttribute": "Survey Flow",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "Flow": [
+               {
+                  "ID": "BL_1FdRVGDTz562VP8",
+                  "Type": "Block",
+                  "FlowID": "FL_2"
+               }
+            ],
+            "Properties": {
+               "Count": 2
+            },
+            "FlowID": "FL_1",
+            "Type": "Root"
+         }
+      },
+      {
+         "SurveyID": "SV_8eQsZYTNyGhZEUu",
+         "Element": "PL",
+         "PrimaryAttribute": "Preview Link",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "PreviewType": "Brand",
+            "PreviewID": "23dfde8f-a83d-4b97-9227-acdc7bf230d0"
+         }
+      },
+      {
+         "SurveyID": "SV_8eQsZYTNyGhZEUu",
+         "Element": "SO",
+         "PrimaryAttribute": "Survey Options",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "BackButton": "false",
+            "SaveAndContinue": "false",
+            "SurveyProtection": "PublicSurvey",
+            "BallotBoxStuffingPrevention": "false",
+            "NoIndex": "Yes",
+            "SecureResponseFiles": "true",
+            "SurveyExpiration": "None",
+            "SurveyTermination": "DefaultMessage",
+            "Header": "",
+            "Footer": "",
+            "ProgressBarDisplay": "NoText",
+            "PartialData": "No",
+            "ValidationMessage": null,
+            "PreviousButton": " ← ",
+            "NextButton": " → ",
+            "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+            "SkinLibrary": "qdemo",
+            "SkinType": "templated",
+            "Skin": {
+               "brandingId": "6390112371",
+               "templateId": "*2014",
+               "overrides": null
+            },
+            "NewScoring": 1,
+            "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today.",
+            "CustomStyles": {
+               "customCSS": "#Q_lang {\n\tdisplay: none;\n}"
+            },
+            "EOSMessage": null,
+            "ShowExportTags": "false",
+            "CollectGeoLocation": "false",
+            "PasswordProtection": "No",
+            "AnonymizeResponse": "Yes",
+            "RefererCheck": "No",
+            "SurveyAnalysisDisabled": true,
+            "BallotBoxStuffingPreventionBehavior": null,
+            "BallotBoxStuffingPreventionMessage": null,
+            "BallotBoxStuffingPreventionMessageLibrary": null,
+            "BallotBoxStuffingPreventionURL": null,
+            "RecaptchaV3": "false",
+            "ConfirmStart": false,
+            "AutoConfirmStart": false,
+            "RelevantID": "false",
+            "RelevantIDLockoutPeriod": "+30 days",
+            "UseCustomSurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessageLibrary": null,
+            "ResponseSummary": "No",
+            "EOSMessageLibrary": null,
+            "EOSRedirectURL": null,
+            "EmailThankYou": "false",
+            "ThankYouEmailMessageLibrary": null,
+            "ThankYouEmailMessage": null,
+            "ValidateMessage": "false",
+            "ValidationMessageLibrary": null,
+            "InactiveSurvey": "DefaultMessage",
+            "PartialDeletion": "+1 hour",
+            "PartialDataCloseAfter": "LastActivity",
+            "InactiveMessageLibrary": null,
+            "InactiveMessage": null,
+            "AvailableLanguages": {
+               "EN": [],
+               "PT-BR": []
+            },
+            "CustomLanguages": [],
+            "SurveyCreationDate": "2022-12-28 14:40:32",
+            "MetaDataTranslations": {
+               "PT-BR": {
+                  "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+                  "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today."
+               }
+            }
+         }
+      },
+      {
+         "SurveyID": "SV_8eQsZYTNyGhZEUu",
+         "Element": "SCO",
+         "PrimaryAttribute": "Scoring",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "ScoringCategories": [],
+            "ScoringCategoryGroups": [],
+            "ScoringSummaryCategory": null,
+            "ScoringSummaryAfterQuestions": 0,
+            "ScoringSummaryAfterSurvey": 0,
+            "DefaultScoringCategory": null,
+            "AutoScoringCategory": null
+         }
+      },
+      {
+         "SurveyID": "SV_8eQsZYTNyGhZEUu",
+         "Element": "PROJ",
+         "PrimaryAttribute": "CORE",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": "1.1.0",
+         "Payload": {
+            "ProjectCategory": "CORE",
+            "SchemaVersion": "1.1.0"
+         }
+      },
+      {
+         "SurveyID": "SV_8eQsZYTNyGhZEUu",
+         "Element": "STAT",
+         "PrimaryAttribute": "Survey Statistics",
+         "SecondaryAttribute": null,
+         "TertiaryAttribute": null,
+         "Payload": {
+            "MobileCompatible": true,
+            "ID": "Survey Statistics"
+         }
+      },
+      {
+         "SurveyID": "SV_8eQsZYTNyGhZEUu",
+         "Element": "QC",
+         "PrimaryAttribute": "Survey Question Count",
+         "SecondaryAttribute": "2",
+         "TertiaryAttribute": null,
+         "Payload": null
+      },
+      {
+         "SurveyID": "SV_8eQsZYTNyGhZEUu",
+         "Element": "RS",
+         "PrimaryAttribute": "RS_6Dwu1fdGeKalzF4",
+         "SecondaryAttribute": "Default Response Set",
+         "TertiaryAttribute": null,
+         "Payload": null
+      },
+      {
+         "SurveyID": "SV_8eQsZYTNyGhZEUu",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID2",
+         "SecondaryAttribute": "How satisfied are you with this survey?",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "How satisfied are you with this survey?",
+            "DefaultChoices": false,
+            "DataExportTag": "Q2",
+            "QuestionType": "MC",
+            "Selector": "SAHR",
+            "SubSelector": "TX",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText",
+               "Autoscale": {
+                  "YScale": {
+                     "Name": "satisfiedDissatisfied",
+                     "Type": "likert",
+                     "Reverse": false
+                  }
+               },
+               "LabelPosition": "BELOW"
+            },
+            "QuestionDescription": "How satisfied are you with this survey?",
+            "Choices": {
+               "1": {
+                  "Display": "Extremely dissatisfied"
+               },
+               "2": {
+                  "Display": "Somewhat dissatisfied"
+               },
+               "3": {
+                  "Display": "Neither satisfied nor dissatisfied"
+               },
+               "4": {
+                  "Display": "Somewhat satisfied"
+               },
+               "5": {
+                  "Display": "Extremely satisfied"
+               }
+            },
+            "ChoiceOrder": [
+               "1",
+               "2",
+               "3",
+               "4",
+               "5"
+            ],
+            "Validation": {
+               "Settings": {
+                  "ForceResponse": "OFF",
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "PT-BR": {
+                  "QuestionText": "Quão satisfeito(a) você está com essa pesquisa?",
+                  "Choices": {
+                     "1": {
+                        "Display": "Extremamente insatisfeito(a)"
+                     },
+                     "2": {
+                        "Display": "Parcialmente insatisfeito(a)"
+                     },
+                     "3": {
+                        "Display": "Nem satisfeito(a), nem insatisfeito(a)"
+                     },
+                     "4": {
+                        "Display": "Parcialmente satisfeito(a)"
+                     },
+                     "5": {
+                        "Display": "Extremamente satisfeito(a)"
+                     }
+                  }
+               }
+            },
+            "NextChoiceId": 6,
+            "NextAnswerId": 1,
+            "QuestionID": "QID2"
+         }
+      },
+      {
+         "SurveyID": "SV_8eQsZYTNyGhZEUu",
+         "Element": "SQ",
+         "PrimaryAttribute": "QID1",
+         "SecondaryAttribute": "Intro This is the first page of my survey, you should only see the language selector in the top r...",
+         "TertiaryAttribute": null,
+         "Payload": {
+            "QuestionText": "<b>Intro</b><br>This is the first page of my survey, you should only see the language selector in the top right corner of this page.<br><br>From the second page on you won't be able to change language.<br>",
+            "DefaultChoices": false,
+            "DataExportTag": "Q1",
+            "QuestionID": "QID1",
+            "QuestionType": "DB",
+            "Selector": "TB",
+            "Configuration": {
+               "QuestionDescriptionOption": "UseText"
+            },
+            "QuestionDescription": "Intro This is the first page of my survey, you should only see the language selector in the top r...",
+            "ChoiceOrder": [],
+            "Validation": {
+               "Settings": {
+                  "Type": "None"
+               }
+            },
+            "GradingData": [],
+            "Language": {
+               "PT-BR": {
+                  "QuestionText": "<b>Introdução</b><br />\nEssa é a primeira página da minha pesquisa. Você apenas poderá ver o seletor de idiomas no canto superior direito dessa página.<br />\n<br />\nA partir da página dois, não será possível alterar o idioma."
+               }
+            },
+            "NextChoiceId": 4,
+            "NextAnswerId": 1,
+            "QuestionJS": "Qualtrics.SurveyEngine.addOnload(function()\n{\n\t/*Place your JavaScript here to run when the page loads*/\n\n});\n\nQualtrics.SurveyEngine.addOnReady(function()\n{\n\tjQuery(\"#Q_lang\").show();\n});\n\nQualtrics.SurveyEngine.addOnUnload(function()\n{\n\t/*Place your JavaScript here to run when the page is unloaded*/\n\n});",
+            "DataVisibility": {
+               "Private": false,
+               "Hidden": false
+            }
+         }
+      }
+   ]
+}
