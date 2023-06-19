@@ -1,0 +1,358 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_cVmTgMZMHWDbLNk",
+    "SurveyName": "Fun: Clever NPS",
+    "SurveyDescription": null,
+    "SurveyOwnerID": "UR_cuppQqWTlam3hZQ",
+    "SurveyBrandID": "qdemo",
+    "DivisionID": "DV_51IeqeCbv2poD6l",
+    "SurveyLanguage": "PT-BR",
+    "SurveyActiveResponseSet": "RS_0xgGf3XmcAkxvxk",
+    "SurveyStatus": "Active",
+    "SurveyStartDate": "0000-00-00 00:00:00",
+    "SurveyExpirationDate": "0000-00-00 00:00:00",
+    "SurveyCreationDate": "2023-03-15 17:01:56",
+    "CreatorID": "UR_cuppQqWTlam3hZQ",
+    "LastModified": "2023-06-19 16:08:42",
+    "LastAccessed": "0000-00-00 00:00:00",
+    "LastActivated": "2023-03-15 17:51:55",
+    "Deleted": null
+  },
+  "SurveyElements": [
+    {
+      "SurveyID": "SV_cVmTgMZMHWDbLNk",
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": [
+        {
+          "Type": "Default",
+          "Description": "Default Question Block",
+          "ID": "BL_3QMARitlRZ9V3q6",
+          "BlockElements": [
+            {
+              "Type": "Question",
+              "QuestionID": "QID1"
+            },
+            {
+              "Type": "Page Break"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID2"
+            }
+          ]
+        },
+        {
+          "Type": "Trash",
+          "Description": "Lixeira/perguntas não usadas",
+          "ID": "BL_9sP5Gy1CFLzkcSi"
+        }
+      ]
+    },
+    {
+      "SurveyID": "SV_cVmTgMZMHWDbLNk",
+      "Element": "FL",
+      "PrimaryAttribute": "Survey Flow",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Flow": [
+          {
+            "ID": "BL_3QMARitlRZ9V3q6",
+            "Type": "Block",
+            "FlowID": "FL_2"
+          }
+        ],
+        "Properties": {
+          "Count": 2
+        },
+        "FlowID": "FL_1",
+        "Type": "Root"
+      }
+    },
+    {
+      "SurveyID": "SV_cVmTgMZMHWDbLNk",
+      "Element": "PL",
+      "PrimaryAttribute": "Preview Link",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "PreviewType": "Brand",
+        "PreviewID": "b742647a-b0c1-4a4a-bbe5-a69e984c52c3"
+      }
+    },
+    {
+      "SurveyID": "SV_cVmTgMZMHWDbLNk",
+      "Element": "SO",
+      "PrimaryAttribute": "Survey Options",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "BackButton": "false",
+        "SaveAndContinue": "true",
+        "SurveyProtection": "PublicSurvey",
+        "BallotBoxStuffingPrevention": "false",
+        "NoIndex": "Yes",
+        "SecureResponseFiles": "true",
+        "SurveyExpiration": "None",
+        "SurveyTermination": "DefaultMessage",
+        "Header": "",
+        "Footer": "",
+        "ProgressBarDisplay": "None",
+        "PartialData": "+1 week",
+        "ValidationMessage": "",
+        "PreviousButton": " ← ",
+        "NextButton": " → ",
+        "SurveyTitle": "Pesquisa Qualtrics | Gestão da experiência do Qualtrics",
+        "SkinLibrary": "qdemo",
+        "SkinType": "templated",
+        "Skin": {
+          "brandingId": null,
+          "templateId": "*2014",
+          "overrides": {
+            "colors": {
+              "primary": "#53bc00"
+            }
+          }
+        },
+        "NewScoring": 1,
+        "SurveyMetaDescription": "A maneira mais avançada, simples e confiável de coletar dados de experiência. Comece a sua jornada para a gestão da experiência e teste uma conta gratuita hoje.",
+        "CustomStyles": {
+          "customCSS": ".Skin\n#QID1-0-label.SingleAnswer.q-checked:after,\n#QID1-1-label.SingleAnswer.q-checked:after, \n#QID1-2-label.SingleAnswer.q-checked:after, \n#QID1-3-label.SingleAnswer.q-checked:after, \n#QID1-4-label.SingleAnswer.q-checked:after, \n#QID1-5-label.SingleAnswer.q-checked:after, \n#QID1-6-label.SingleAnswer.q-checked:after,\n#QID1-7-label.SingleAnswer.q-checked:after,\n#QID1-8-label.SingleAnswer.q-checked:after, \n#QID1-9-label.SingleAnswer.q-checked:after {\n    background-color: #093969 !important;\n\tcolor: white !important;\n    content: \"10\";\n}\n\n.Skin\n#QID1-0-label.SingleAnswer.q-checked,\n#QID1-1-label.SingleAnswer.q-checked, \n#QID1-2-label.SingleAnswer.q-checked, \n#QID1-3-label.SingleAnswer.q-checked, \n#QID1-4-label.SingleAnswer.q-checked, \n#QID1-5-label.SingleAnswer.q-checked, \n#QID1-6-label.SingleAnswer.q-checked,\n#QID1-7-label.SingleAnswer.q-checked,\n#QID1-8-label.SingleAnswer.q-checked, \n#QID1-9-label.SingleAnswer.q-checked {\n    display: none;\n}"
+        },
+        "SurveyName": "Fun: Clever NPS",
+        "AvailableLanguages": {
+          "PT-BR": [],
+          "EN": []
+        },
+        "CustomLanguages": [],
+        "SurveyCreationDate": "2023-03-15 17:01:56",
+        "MetaDataTranslations": {
+          "EN": {
+            "SurveyTitle": "Qualtrics Research | Qualtrics Experience Management",
+            "SurveyMetaDescription": "The most advanced, simple and reliable way to collect experience data. Start your journey to experience management and create a free account today."
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_cVmTgMZMHWDbLNk",
+      "Element": "SCO",
+      "PrimaryAttribute": "Scoring",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ScoringCategories": [],
+        "ScoringCategoryGroups": [],
+        "ScoringSummaryCategory": null,
+        "ScoringSummaryAfterQuestions": 0,
+        "ScoringSummaryAfterSurvey": 0,
+        "DefaultScoringCategory": null,
+        "AutoScoringCategory": null
+      }
+    },
+    {
+      "SurveyID": "SV_cVmTgMZMHWDbLNk",
+      "Element": "PROJ",
+      "PrimaryAttribute": "CORE",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": "1.1.0",
+      "Payload": {
+        "ProjectCategory": "CORE",
+        "SchemaVersion": "1.1.0"
+      }
+    },
+    {
+      "SurveyID": "SV_cVmTgMZMHWDbLNk",
+      "Element": "STAT",
+      "PrimaryAttribute": "Survey Statistics",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "MobileCompatible": true,
+        "ID": "Survey Statistics"
+      }
+    },
+    {
+      "SurveyID": "SV_cVmTgMZMHWDbLNk",
+      "Element": "QC",
+      "PrimaryAttribute": "Survey Question Count",
+      "SecondaryAttribute": "2",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_cVmTgMZMHWDbLNk",
+      "Element": "RS",
+      "PrimaryAttribute": "RS_0xgGf3XmcAkxvxk",
+      "SecondaryAttribute": "Conjunto de respostas padrão",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_cVmTgMZMHWDbLNk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID1",
+      "SecondaryAttribute": "Em uma escala de 0 a 10, você recomendaria a nossa empresa para um amigo ou colega?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Em uma escala de 0 a 10, você recomendaria a nossa empresa para um amigo ou colega?",
+        "DataExportTag": "Q1",
+        "QuestionType": "MC",
+        "Selector": "NPS",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText"
+        },
+        "QuestionDescription": "Em uma escala de 0 a 10, você recomendaria a nossa empresa para um amigo ou colega?",
+        "Choices": [
+          {
+            "Display": "0"
+          },
+          {
+            "Display": "1"
+          },
+          {
+            "Display": "2"
+          },
+          {
+            "Display": "3"
+          },
+          {
+            "Display": "4"
+          },
+          {
+            "Display": "5"
+          },
+          {
+            "Display": "6"
+          },
+          {
+            "Display": "7"
+          },
+          {
+            "Display": "8"
+          },
+          {
+            "Display": "9"
+          },
+          {
+            "Display": "10"
+          }
+        ],
+        "ChoiceOrder": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "RequestResponse",
+            "ForceResponseType": "RequestResponse",
+            "Type": "CustomValidation",
+            "CustomValidation": {
+              "Logic": {
+                "0": {
+                  "0": {
+                    "ChoiceLocator": "q://QID1/SelectableChoice/10",
+                    "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Em uma escala de 0 a 10, você recomendaria a nossa empresa para um amigo ou colega?</span> <span class=\"LeftOpDesc\">10</span> <span class=\"OpDesc\">Is Selected</span> ",
+                    "LeftOperand": "q://QID1/SelectableChoice/10",
+                    "LogicType": "Question",
+                    "Operator": "Selected",
+                    "QuestionID": "QID1",
+                    "QuestionIDFromLocator": "QID1",
+                    "QuestionIsInLoop": "no",
+                    "Type": "Expression"
+                  },
+                  "Type": "If"
+                },
+                "Type": "BooleanExpression"
+              },
+              "Message": {
+                "description": "Require response",
+                "libraryID": null,
+                "messageID": null,
+                "subMessageID": "VE_FORCE_RESPONSE"
+              }
+            }
+          }
+        },
+        "Language": {
+          "EN": {
+            "QuestionText": "On a scale of 0 to 10, how likely are you to recommend us to a friend or colleague?",
+            "ColumnLabels": [
+              {
+                "Display": "Probably not"
+              },
+              {
+                "Display": "Probably yes"
+              }
+            ]
+          }
+        },
+        "NextChoiceId": 11,
+        "NextAnswerId": 1,
+        "QuestionID": "QID1",
+        "DefaultChoices": false,
+        "GradingData": [],
+        "ColumnLabels": [
+          {
+            "Display": "Provavelmente não",
+            "IsLabelDefault": true
+          },
+          {
+            "Display": "Provavelmente sim",
+            "IsLabelDefault": true
+          }
+        ],
+        "QuestionJS": false,
+        "DataVisibility": {
+          "Private": false,
+          "Hidden": false
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_cVmTgMZMHWDbLNk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID2",
+      "SecondaryAttribute": "Ficamos felizes que você gostou! 😀",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<h1 style=\"text-align: center;\">Ficamos felizes que voc&ecirc; gostou!&nbsp;😀</h1>",
+        "DefaultChoices": false,
+        "DataExportTag": "Q2",
+        "QuestionType": "DB",
+        "Selector": "TB",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText"
+        },
+        "QuestionDescription": "Ficamos felizes que você gostou! 😀",
+        "ChoiceOrder": [],
+        "Validation": {
+          "Settings": {
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": {
+          "EN": {
+            "QuestionText": "<h1 style=\"text-align: center;\">We are happy that you like us! 😀</h1>\n"
+          }
+        },
+        "NextChoiceId": 4,
+        "NextAnswerId": 1,
+        "QuestionID": "QID2"
+      }
+    }
+  ]
+}
