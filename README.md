@@ -25,3 +25,7 @@ This repository contains custom survey templates that addresses common business 
 
 ## Languages
 All survey templates are available in English and Brazilian Portuguese.
+
+
+## Tutorials
+In addition to this repository, I also publish Qualtrics tutorials in this [blog](https://cafetiria.wordpress.com/category/qualtrics).
