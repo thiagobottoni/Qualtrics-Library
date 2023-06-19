@@ -7,6 +7,7 @@ This repository contains custom survey templates that addresses common business 
 - **a-b-testing:** It implements A/B Testing in a survey
 - **address-search-tool:** It implements an address search tool by Brazil Postal Code using public API
 - **custom-choices-background:** It applies custom styles for NPS and CSAT questions using CSS
+- **fun-clever-nps:** Just a little fun! NPS scores disappear unless you select 10 :)
 - **hide-language-selector:** It hides the language selector box across all pages of the survey
 - **language-selector-1st-page:** It displays the language selector box only in the first page of the survey
 - **math-operations-sf:** Examples of how to do math operations in the survey flow
